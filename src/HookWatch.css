@@ -935,38 +935,3 @@ body {
   overflow-x: hidden;
 }
 
-/* Comprehensive ad styling to prevent overflow */
-.ad-container *,
-body > div:not(#root):not(.ad-container),
-iframe[src*="profitablecpm"],
-iframe[src*="highperformanceformat"],
-div[id*="container"],
-div[id*="ad"],
-script[src*="profitablecpm"] + div,
-script[src*="highperformanceformat"] + div {
-  max-width: 100% !important;
-  width: 100% !important;
-  overflow-x: hidden !important;
-  box-sizing: border-box !important;
-}
-
-/* Force all ad iframes to be responsive */
-iframe {
-  max-width: 100% !important;
-  height: auto !important;
-  overflow: hidden !important;
-}
-
-/* Additional overflow prevention for any dynamically created ads */
-body > div {
-  max-width: 100vw !important;
-  overflow-x: hidden !important;
-}
-
-/* Specific styling for common ad networks */
-.profitablecpm-ad,
-.highperformanceformat-ad {
-  width: 100% !important;
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-}
