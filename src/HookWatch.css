@@ -862,3 +862,101 @@
 .time-display.running .time-value {
   animation: pulse 1s infinite;
 }
+
+/* Ad Container Styles */
+.ad-container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.ad-container iframe,
+.ad-container img,
+.ad-container div {
+  max-width: 100% !important;
+  height: auto !important;
+  box-sizing: border-box;
+}
+
+/* Specific ad container styling */
+#container-bbea2fd5fdf65392e151fa2ec79945c2 {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+  margin: 2rem auto !important;
+  padding: 0 1rem !important;
+}
+
+/* Responsive ad sizing */
+@media (max-width: 768px) {
+  .ad-container {
+    padding: 0 0.5rem;
+  }
+  
+  #container-bbea2fd5fdf65392e151fa2ec79945c2 {
+    padding: 0 0.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .ad-container {
+    padding: 0 0.25rem;
+  }
+  
+  #container-bbea2fd5fdf65392e151fa2ec79945c2 {
+    padding: 0 0.25rem !important;
+  }
+}
+
+/* Prevent horizontal scroll on body */
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Ensure root container doesn't overflow */
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Comprehensive ad styling to prevent overflow */
+.ad-container *,
+body > div:not(#root):not(.ad-container),
+iframe[src*="profitablecpm"],
+iframe[src*="highperformanceformat"],
+div[id*="container"],
+div[id*="ad"],
+script[src*="profitablecpm"] + div,
+script[src*="highperformanceformat"] + div {
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+/* Force all ad iframes to be responsive */
+iframe {
+  max-width: 100% !important;
+  height: auto !important;
+  overflow: hidden !important;
+}
+
+/* Additional overflow prevention for any dynamically created ads */
+body > div {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+/* Specific styling for common ad networks */
+.profitablecpm-ad,
+.highperformanceformat-ad {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
