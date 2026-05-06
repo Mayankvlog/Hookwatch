@@ -20,7 +20,8 @@
   "license": "MIT",
   "overrides": {
     "es-abstract": "^1.22.3",
-    "ajv": "6.12.6"
+    "ajv": "6.12.6",
+    "typescript": "^4.9.5"
   },
   "dependencies": {
     "i18next": "^26.0.8",
