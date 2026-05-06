@@ -470,6 +470,7 @@ const HookWatch = () => {
           >
             {soundEnabled ? '🔊' : '🔇'}
           </button>
+          {/* Fixed share button - removed undefined setShowShareDialog call */}
           <button 
             className="share-btn" 
             onClick={shareResults}
