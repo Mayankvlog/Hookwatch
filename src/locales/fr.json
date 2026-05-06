@@ -12,8 +12,9 @@
     "time": "Temps",
     "laps": "Tours",
     "noLaps": "Aucun tour enregistré",
-    "lapTime": "Temps du Tour",
-    "totalTime": "Temps Total"
+    "lapTime": "Temps du tour",
+    "totalTime": "Temps total",
+    "resume": "Reprendre"
   },
   "countdown": {
     "hours": "Heures",
@@ -65,7 +66,7 @@
   },
   "common": {
     "loading": "Chargement...",
-    "save": "Sauvegarder",
+    "save": "Enregistrer",
     "cancel": "Annuler",
     "confirm": "Confirmer",
     "delete": "Supprimer",
@@ -73,6 +74,8 @@
     "close": "Fermer",
     "ok": "OK",
     "yes": "Oui",
-    "no": "Non"
+    "no": "Non",
+    "running": "En cours",
+    "stopped": "Arrêté"
   }
 }

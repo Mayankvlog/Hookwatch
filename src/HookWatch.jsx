@@ -571,15 +571,15 @@ const HookWatch = () => {
             {formatTime(isCountdownMode ? countdownTime : time)}
           </div>
           <div className="time-label">
-            {isRunning ? 'Running' : 'Stopped'}
-          </div>
+          {isRunning ? t('common.running') : t('common.stopped')}
+        </div>
         </div>
       </div>
 
       <div className="controls">
         {!isRunning ? (
           <button className="btn btn-start" onClick={handleStart} title="Start (Space)">
-            {isCountdownMode ? t('countdown.start') : (time === 0 ? t('stopwatch.start') : 'Resume')}
+            {isCountdownMode ? t('countdown.start') : (time === 0 ? t('stopwatch.start') : t('stopwatch.resume'))}
           </button>
         ) : (
           <button className="btn btn-stop" onClick={handleStop} title="Stop (Space)">

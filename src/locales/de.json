@@ -4,7 +4,7 @@
     "description": "Präzisionstiming für Athleten, Profis und alle dazwischen"
   },
   "stopwatch": {
-    "start": "Starten",
+    "start": "Start",
     "stop": "Stopp",
     "reset": "Zurücksetzen",
     "lap": "Runde",
@@ -13,7 +13,8 @@
     "laps": "Runden",
     "noLaps": "Keine Runden aufgezeichnet",
     "lapTime": "Rundenzeit",
-    "totalTime": "Gesamtzeit"
+    "totalTime": "Gesamtzeit",
+    "resume": "Fortsetzen"
   },
   "countdown": {
     "hours": "Stunden",
@@ -73,6 +74,8 @@
     "close": "Schließen",
     "ok": "OK",
     "yes": "Ja",
-    "no": "Nein"
+    "no": "Nein",
+    "running": "Läuft",
+    "stopped": "Gestoppt"
   }
 }

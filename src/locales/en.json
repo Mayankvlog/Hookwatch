@@ -13,7 +13,8 @@
     "laps": "Laps",
     "noLaps": "No laps recorded",
     "lapTime": "Lap Time",
-    "totalTime": "Total Time"
+    "totalTime": "Total Time",
+    "resume": "Resume"
   },
   "countdown": {
     "hours": "Hours",
@@ -73,6 +74,8 @@
     "close": "Close",
     "ok": "OK",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "running": "Running",
+    "stopped": "Stopped"
   }
 }

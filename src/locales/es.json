@@ -13,7 +13,8 @@
     "laps": "Vueltas",
     "noLaps": "No hay vueltas registradas",
     "lapTime": "Tiempo de Vuelta",
-    "totalTime": "Tiempo Total"
+    "totalTime": "Tiempo Total",
+    "resume": "Reanudar"
   },
   "countdown": {
     "hours": "Horas",
@@ -73,6 +74,8 @@
     "close": "Cerrar",
     "ok": "OK",
     "yes": "Sí",
-    "no": "No"
+    "no": "No",
+    "running": "Funcionando",
+    "stopped": "Detenido"
   }
 }
