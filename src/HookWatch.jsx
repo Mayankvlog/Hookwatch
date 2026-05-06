@@ -472,7 +472,7 @@ const HookWatch = () => {
           </button>
           <button 
             className="share-btn" 
-            onClick={() => setShowShareDialog(true)}
+            onClick={shareResults}
             title="Share Results"
           >
             📤
