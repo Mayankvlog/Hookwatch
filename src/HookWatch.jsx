@@ -43,7 +43,7 @@ const HookWatch = () => {
           setCountdownTime(prevTime => {
             const newTime = prevTime - 10;
             const totalTime = countdownInput * 60 * 1000;
-            const progressPercent = ((totalTime - newTime) / totalTime) * 100;
+            const progressPercent = totalTime > 0 ? ((totalTime - newTime) / totalTime) * 100 : 0;
             setProgress(progressPercent);
             
             if (newTime <= 10) {
@@ -640,7 +640,7 @@ const HookWatch = () => {
           </div>
           <div className="laps-list">
             {laps.map((lapTime, index) => {
-              const prevLap = index > 0 ? laps[index - 1] : (isCountdownMode ? countdownInput * 60 * 1000 : 0);
+              const prevLap = index > 0 ? laps[index - 1] : (isCountdownMode ? countdownInput * 60 * 1000 : time);
               const diff = isCountdownMode ? prevLap - lapTime : lapTime - prevLap;
               return (
                 <div key={index} className="lap-item">
