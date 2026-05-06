@@ -86,8 +86,6 @@ const HookWatch = () => {
         setIsDarkTheme(!isDarkTheme);
       } else if (e.code === 'KeyM') {
         setIsCountdownMode(!isCountdownMode);
-      } else if (e.code === 'KeyS') {
-        shareResults();
       }
     };
 
@@ -470,14 +468,6 @@ const HookWatch = () => {
           >
             {soundEnabled ? '🔊' : '🔇'}
           </button>
-          {/* Fixed share button - removed undefined setShowShareDialog call */}
-          <button 
-            className="share-btn" 
-            onClick={shareResults}
-            title="Share Results"
-          >
-            📤
-          </button>
         </div>
       </div>
 
@@ -582,49 +572,10 @@ const HookWatch = () => {
       </div>
 
       <div className="keyboard-shortcuts">
-        <p>Space (Start/Stop) | R (Reset) | L (Lap) | T (Theme) | M (Mode) | S (Share) | Swipe Left/Right</p>
+        <p>Space (Start/Stop) | R (Reset) | L (Lap) | T (Theme) | M (Mode) | Swipe Left/Right</p>
       </div>
 
-      {/* Viral Sharing Section for SEO */}
-      {(viralScore > 500 || isRunning) && (
-        <div className="viral-sharing-section">
-          <div className="viral-header">
-            <h3>Share Your Timing Achievement!</h3>
-            <div className="viral-score-display">
-              <span className="score-label">Viral Score:</span>
-              <span className="score-value">{viralScore}</span>
-            </div>
-          </div>
-          <div className="sharing-buttons">
-            <button className="share-btn-facebook" onClick={() => shareToSocial('meta')}>
-              📘 Share on Meta
-            </button>
-            <button className="share-btn-x" onClick={() => shareToSocial('x')}>
-              𝕏 Share on X
-            </button>
-            <button className="share-btn-linkedin" onClick={() => shareToSocial('linkedin')}>
-              💼 Share on LinkedIn
-            </button>
-            <button className="share-btn-whatsapp" onClick={() => shareToSocial('whatsapp')}>
-              💬 Share on WhatsApp
-            </button>
-            <button className="share-btn-copy" onClick={() => shareToSocial('copy')}>
-              📋 Copy Link
-            </button>
-          </div>
-          {shareableResults.achievements && shareableResults.achievements.length > 0 && (
-            <div className="achievements-display">
-              <h4>🏆 Your Achievements:</h4>
-              <div className="achievement-badges">
-                {shareableResults.achievements.map((achievement, index) => (
-                  <span key={index} className="achievement-badge">{achievement}</span>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-      )}
-
+      
       {laps.length > 0 && (
         <div className="laps-section">
           <div className="laps-header">
