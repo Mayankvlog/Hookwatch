@@ -18,6 +18,9 @@
   ],
   "author": "HookWatch Team",
   "license": "MIT",
+  "overrides": {
+    "es-abstract": "^1.22.3"
+  },
   "dependencies": {
     "i18next": "^26.0.8",
     "i18next-browser-languagedetector": "^8.2.1",
@@ -39,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
   }
 }
