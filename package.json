@@ -19,7 +19,8 @@
   "author": "HookWatch Team",
   "license": "MIT",
   "overrides": {
-    "es-abstract": "^1.22.3"
+    "es-abstract": "^1.22.3",
+    "ajv": "6.12.6"
   },
   "dependencies": {
     "ajv": "^6.12.6",
