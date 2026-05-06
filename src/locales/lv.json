@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesionāla Hronometrs",
+    "description": "Precīzs laika mērīšana sportistiem, profesionāļiem un visiem starp tiem"
+  },
+  "stopwatch": {
+    "start": "Sākt",
+    "stop": "Apturēt",
+    "reset": "Atiestatīt",
+    "lap": "Aplis",
+    "clear": "Notīrīt",
+    "time": "Laiks",
+    "laps": "Apļi",
+    "noLaps": "Nav ierakstītu apļu",
+    "lapTime": "Apļa Laiks",
+    "totalTime": "Kopējais Laiks"
+  },
+  "countdown": {
+    "hours": "Stundas",
+    "minutes": "Minūtes", 
+    "seconds": "Sekundes",
+    "start": "Sākt",
+    "stop": "Apturēt",
+    "reset": "Atiestatīt",
+    "timeUp": "Laiks beidzies!",
+    "setTime": "Iestatīt atskaites laiku"
+  },
+  "settings": {
+    "title": "Iestatījumi",
+    "language": "Valoda",
+    "theme": "Tēma",
+    "sound": "Skaņa",
+    "notifications": "Paziņojumi",
+    "darkMode": "Tumšais Režīms",
+    "lightMode": "Gaišais Režīms",
+    "autoMode": "Automātiskais Režīms"
+  },
+  "navigation": {
+    "stopwatch": "Hronometrs",
+    "countdown": "Atskaite",
+    "settings": "Iestatījumi",
+    "about": "Par"
+  },
+  "about": {
+    "title": "Par HookWatch",
+    "version": "Versija",
+    "description": "HookWatch ir profesionāla līmeņa hronometra un taimera lietotne, kas izstrādāta precīzai laika mērīšanai.",
+    "features": "Funkcijas",
+    "featureList": [
+      "Precīza laika mērīšana milisekunžu precizitātē",
+      "Apļa laika ierakstīšana",
+      "Atskaites taimeris",
+      "Vairākas tēmas",
+      "Starptautiska valodu atbalsts",
+      "Eksportēšanas funkcionalitāte"
+    ],
+    "contact": "Kontakts",
+    "website": "Mājas lapa",
+    "email": "E-pasts"
+  },
+  "errors": {
+    "invalidTime": "Nederīgs laika formāts",
+    "networkError": "Gadījās tīkla kļūda",
+    "tryAgain": "Lūdzu mēģiniet vēlreiz"
+  },
+  "common": {
+    "loading": "Ielādē...",
+    "save": "Saglabāt",
+    "cancel": "Atcelt",
+    "confirm": "Apstiprināt",
+    "delete": "Dzēst",
+    "edit": "Rediģēt",
+    "close": "Aizvērt",
+    "ok": "Labi",
+    "yes": "Jā",
+    "no": "Nē"
+  }
+}

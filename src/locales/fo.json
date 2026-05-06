@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professionell Stoppur",
+    "description": "Nøktíðar mæling fyri ítróttafólk, professionell og allir ímillum"
+  },
+  "stopwatch": {
+    "start": "Byrja",
+    "stop": "Støða",
+    "reset": "Endurseta",
+    "lap": "Rundur",
+    "clear": "Rudda",
+    "time": "Tíð",
+    "laps": "Rundir",
+    "noLaps": "Ongar rundir skrivaðar",
+    "lapTime": "Rundartíð",
+    "totalTime": "Talið Tíð"
+  },
+  "countdown": {
+    "hours": "Tímar",
+    "minutes": "Minuttir", 
+    "seconds": "Sekund",
+    "start": "Byrja",
+    "stop": "Støða",
+    "reset": "Endurseta",
+    "timeUp": "Tíðin er liðug!",
+    "setTime": "Setja afturtalningartíð"
+  },
+  "settings": {
+    "title": "Stillingar",
+    "language": "Mál",
+    "theme": "Tema",
+    "sound": "Ljóð",
+    "notifications": "Fráboðanir",
+    "darkMode": "Myrkur støð",
+    "lightMode": "Ljós støð",
+    "autoMode": "Sjálvirkur støð"
+  },
+  "navigation": {
+    "stopwatch": "Stoppur",
+    "countdown": "Afturtalning",
+    "settings": "Stillingar",
+    "about": "Um"
+  },
+  "about": {
+    "title": "Um HookWatch",
+    "version": "Útgáva",
+    "description": "HookWatch er ein professionell stoppur- og tímarar-applikasjon sum er gjørd til nøktíðar mæling.",
+    "features": "Eginleikar",
+    "featureList": [
+      "Nøktíðar mæling í millisekundum",
+      "Rundartíðarskriving",
+      "Afturtalningartímar",
+      "Ymsir tema",
+      "Altjóðaál málstøða",
+      "Útflutnings møguleikar"
+    ],
+    "contact": "Samband",
+    "website": "Heimasíða",
+    "email": "Teldupostur"
+  },
+  "errors": {
+    "invalidTime": "Ógyldigt tíðarsnið",
+    "networkError": "Netverksfeilur hendi",
+    "tryAgain": "Vinarliga royn aftur"
+  },
+  "common": {
+    "loading": "Lesur...",
+    "save": "Goym",
+    "cancel": "Avlýsa",
+    "confirm": "Vátta",
+    "delete": "Strika",
+    "edit": "Ritstjórna",
+    "close": "Lat aftur",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nei"
+  }
+}

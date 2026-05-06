@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Cronòmetre Professional",
+    "description": "Temps de precisió per a esportistes, professionals i tots els que hi ha entre"
+  },
+  "stopwatch": {
+    "start": "Iniciar",
+    "stop": "Aturar",
+    "reset": "Restablir",
+    "lap": "Volta",
+    "clear": "Netejar",
+    "time": "Temps",
+    "laps": "Voltes",
+    "noLaps": "No s'han registrat voltes",
+    "lapTime": "Temps de Volta",
+    "totalTime": "Temps Total"
+  },
+  "countdown": {
+    "hours": "Hores",
+    "minutes": "Minuts", 
+    "seconds": "Segons",
+    "start": "Iniciar",
+    "stop": "Aturar",
+    "reset": "Restablir",
+    "timeUp": "El temps s'ha acabat!",
+    "setTime": "Establir temps de compte enrere"
+  },
+  "settings": {
+    "title": "Configuració",
+    "language": "Idioma",
+    "theme": "Tema",
+    "sound": "So",
+    "notifications": "Notificacions",
+    "darkMode": "Mode Fosc",
+    "lightMode": "Mode Clar",
+    "autoMode": "Mode Automàtic"
+  },
+  "navigation": {
+    "stopwatch": "Cronòmetre",
+    "countdown": "Compte Enrere",
+    "settings": "Configuració",
+    "about": "Sobre"
+  },
+  "about": {
+    "title": "Sobre HookWatch",
+    "version": "Versió",
+    "description": "HookWatch és una aplicació de cronòmetre i temporitzador de nivell professional dissenyada per a temps de precisió.",
+    "features": "Característiques",
+    "featureList": [
+      "Temps de precisió de mil·lisegons",
+      "Registre de temps de volta",
+      "Temporitzador de compte enrere",
+      "Múltiples temes",
+      "Suport d'idioma internacional",
+      "Funcionalitat d'exportació"
+    ],
+    "contact": "Contacte",
+    "website": "Lloc web",
+    "email": "Correu electrònic"
+  },
+  "errors": {
+    "invalidTime": "Format de temps no vàlid",
+    "networkError": "S'ha produït un error de xarxa",
+    "tryAgain": "Si us plau, torna-ho intentar"
+  },
+  "common": {
+    "loading": "Carregant...",
+    "save": "Desar",
+    "cancel": "Cancel·lar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Tancar",
+    "ok": "D'acord",
+    "yes": "Sí",
+    "no": "No"
+  }
+}

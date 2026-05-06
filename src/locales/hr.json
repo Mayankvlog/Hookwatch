@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesionalna Štoperica",
+    "description": "Precizno mjerenje vremena za sportaše, profesionalce i sve između"
+  },
+  "stopwatch": {
+    "start": "Pokreni",
+    "stop": "Zaustavi",
+    "reset": "Resetiraj",
+    "lap": "Krug",
+    "clear": "Obriši",
+    "time": "Vrijeme",
+    "laps": "Krugovi",
+    "noLaps": "Nema zabilježenih krugova",
+    "lapTime": "Vrijeme Kruga",
+    "totalTime": "Ukupno Vrijeme"
+  },
+  "countdown": {
+    "hours": "Sati",
+    "minutes": "Minute", 
+    "seconds": "Sekunde",
+    "start": "Pokreni",
+    "stop": "Zaustavi",
+    "reset": "Resetiraj",
+    "timeUp": "Vrijeme je isteklo!",
+    "setTime": "Postavi vrijeme odbrojavanja"
+  },
+  "settings": {
+    "title": "Postavke",
+    "language": "Jezik",
+    "theme": "Tema",
+    "sound": "Zvuk",
+    "notifications": "Obavijesti",
+    "darkMode": "Tamni Način",
+    "lightMode": "Svijetli Način",
+    "autoMode": "Automatski Način"
+  },
+  "navigation": {
+    "stopwatch": "Štoperica",
+    "countdown": "Odbrojavanje",
+    "settings": "Postavke",
+    "about": "O"
+  },
+  "about": {
+    "title": "O HookWatch",
+    "version": "Verzija",
+    "description": "HookWatch je aplikacija štoperice i tajmera profesionalne razine dizajnirana za precizno mjerenje vremena.",
+    "features": "Značajke",
+    "featureList": [
+      "Precizno mjerenje vremena na milisekunde",
+      "Zabilježavanje vremena kruga",
+      "Tajmer odbrojavanja",
+      "Više tema",
+      "Međunarodna podrška za jezike",
+      "Funkcionalnost izvoza"
+    ],
+    "contact": "Kontakt",
+    "website": "Web stranica",
+    "email": "E-pošta"
+  },
+  "errors": {
+    "invalidTime": "Nevaljani format vremena",
+    "networkError": "Došlo je do mrežne greške",
+    "tryAgain": "Molimo pokušajte ponovo"
+  },
+  "common": {
+    "loading": "Učitavanje...",
+    "save": "Spremi",
+    "cancel": "Otkaži",
+    "confirm": "Potvrdi",
+    "delete": "Obriši",
+    "edit": "Uredi",
+    "close": "Zatvori",
+    "ok": "U redu",
+    "yes": "Da",
+    "no": "Ne"
+  }
+}

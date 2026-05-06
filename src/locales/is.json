@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Atvinnastoppklukka",
+    "description": "Nákvæm tímamæl fyrir íþróttamenn, atvinnufólk og alla á milli"
+  },
+  "stopwatch": {
+    "start": "Byrja",
+    "stop": "Stoppa",
+    "reset": "Endurstilla",
+    "lap": "Hringur",
+    "clear": "Hreinsa",
+    "time": "Tími",
+    "laps": "Hringir",
+    "noLaps": "Engir hringir skráðir",
+    "lapTime": "Hringtími",
+    "totalTime": "Heildartími"
+  },
+  "countdown": {
+    "hours": "Klukkustundir",
+    "minutes": "Mínútur", 
+    "seconds": "Sekúndur",
+    "start": "Byrja",
+    "stop": "Stoppa",
+    "reset": "Endurstilla",
+    "timeUp": "Tíminn er liðinn!",
+    "setTime": "Stilla niðurtalningartíma"
+  },
+  "settings": {
+    "title": "Stillingar",
+    "language": "Tungumál",
+    "theme": "Þema",
+    "sound": "Hljóð",
+    "notifications": "Tilkynningar",
+    "darkMode": "Dökkur hamur",
+    "lightMode": "Bjartur hamur",
+    "autoMode": "Sjálfvirkur hamur"
+  },
+  "navigation": {
+    "stopwatch": "Stoppklukka",
+    "countdown": "Niðurtalning",
+    "settings": "Stillingar",
+    "about": "Um"
+  },
+  "about": {
+    "title": "Um HookWatch",
+    "version": "Útgáfa",
+    "description": "HookWatch er atvinnuklasa stoppklukka og tímatæki sem hannað er fyrir nákvæma tímamælingu.",
+    "features": "Eiginleikar",
+    "featureList": [
+      "Nákvæm tímamæl í millisekúndum",
+      "Hringtíma skráning",
+      "Niðurtalningartími",
+      "Margar þemur",
+      "Alþjóðleg tungumála stuðningur",
+      "Útflutnings möguleikar"
+    ],
+    "contact": "Hafa samband",
+    "website": "Vefsíða",
+    "email": "Tölvupóstur"
+  },
+  "errors": {
+    "invalidTime": "Ógild tímaform",
+    "networkError": "Netvilla kom upp",
+    "tryAgain": "Vinsamlegast reyndu aftur"
+  },
+  "common": {
+    "loading": "Hleður...",
+    "save": "Vista",
+    "cancel": "Hætta við",
+    "confirm": "Staðfesta",
+    "delete": "Eyða",
+    "edit": "Breyta",
+    "close": "Loka",
+    "ok": "Í lagi",
+    "yes": "Já",
+    "no": "Nei"
+  }
+}

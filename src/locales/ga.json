@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Stopadair Gairmiúil",
+    "description": "Am cruinn do lúthchleasaithe, gairmithe agus gach duine eatarthu"
+  },
+  "stopwatch": {
+    "start": "Tosaigh",
+    "stop": "Stad",
+    "reset": "Athshocraigh",
+    "lap": "Lap",
+    "clear": "Glan",
+    "time": "Am",
+    "laps": "Lanna",
+    "noLaps": "Níl aon lapanna taifeadta",
+    "lapTime": "Am an Lap",
+    "totalTime": "Am Iomlán"
+  },
+  "countdown": {
+    "hours": "Uaireanta",
+    "minutes": "Nóiméad", 
+    "seconds": "Soicindí",
+    "start": "Tosaigh",
+    "stop": "Stad",
+    "reset": "Athshocraigh",
+    "timeUp": "Am imithe!",
+    "setTime": "Socraigh am comhaireamh siar"
+  },
+  "settings": {
+    "title": "Socruithe",
+    "language": "Teanga",
+    "theme": "Téama",
+    "sound": "Fuaim",
+    "notifications": "Fógraí",
+    "darkMode": "Mód Dorcha",
+    "lightMode": "Mód Solais",
+    "autoMode": "Mód Uathoibríoch"
+  },
+  "navigation": {
+    "stopwatch": "Stopadair",
+    "countdown": "Comhaireamh Siar",
+    "settings": "Socruithe",
+    "about": "Faoi"
+  },
+  "about": {
+    "title": "Faoi HookWatch",
+    "version": "Leagan",
+    "description": "Is feidhmchlár stopadair agus caitheamh aimsire leibhéal gairmiúil é HookWatch, deartha le haghaidh am cruinn.",
+    "features": "Gnéithe",
+    "featureList": [
+      "Am cruinn míleasoicind",
+      "Taifeadadh ama an lap",
+      "Caitheamh aimsire comhaireamh siar",
+      "Téamaí iolracha",
+      "Tacaíocht theanga idirnáisiúnta",
+      "Feidhmiúlacht easportála"
+    ],
+    "contact": "Teagmháil",
+    "website": "Suíomh Gréasáin",
+    "email": "Ríomhphost"
+  },
+  "errors": {
+    "invalidTime": "Formáid ama neamhbhailí",
+    "networkError": "Tharla earráid líonra",
+    "tryAgain": "Déan iarracht eile le do thoil"
+  },
+  "common": {
+    "loading": "Á lódáil...",
+    "save": "Sábháil",
+    "cancel": "Cealaigh",
+    "confirm": "Deimhnigh",
+    "delete": "Scrios",
+    "edit": "Cuir in eagar",
+    "close": "Dún",
+    "ok": "OK",
+    "yes": "Tá",
+    "no": "Níl"
+  }
+}

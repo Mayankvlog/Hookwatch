@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Propesyonal na Stopwatch",
+    "description": "Presisong pagtatataya para sa mga atleta, propesyonal, at lahat ng tao"
+  },
+  "stopwatch": {
+    "start": "Magsimula",
+    "stop": "Itigil",
+    "reset": "I-reset",
+    "lap": "Lap",
+    "clear": "Clear",
+    "time": "Oras",
+    "laps": "Mga Lap",
+    "noLaps": "Walang naitala na lap",
+    "lapTime": "Oras ng Lap",
+    "totalTime": "Kabuuang Oras"
+  },
+  "countdown": {
+    "hours": "Oras",
+    "minutes": "Minuto", 
+    "seconds": "Segundo",
+    "start": "Magsimula",
+    "stop": "Itigil",
+    "reset": "I-reset",
+    "timeUp": "Tapos na ang Oras!",
+    "setTime": "Itakda ang oras ng countdown"
+  },
+  "settings": {
+    "title": "Mga Setting",
+    "language": "Wika",
+    "theme": "Tema",
+    "sound": "Tunog",
+    "notifications": "Mga Notipikasyon",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "autoMode": "Auto Mode"
+  },
+  "navigation": {
+    "stopwatch": "Stopwatch",
+    "countdown": "Countdown",
+    "settings": "Mga Setting",
+    "about": "Tungkol"
+  },
+  "about": {
+    "title": "Tungkol sa HookWatch",
+    "version": "Bersyon",
+    "description": "Ang HookWatch ay isang propesyonal na stopwatch at timer application na idinisenyo para sa presisong pagtatataya.",
+    "features": "Mga Tampok",
+    "featureList": [
+      "Presisong pagtatataya ng milisegundo",
+      "Pag-record ng oras ng lap",
+      "Timer ng countdown",
+      "Maraming tema",
+      "Internasyonal na suporta sa wika",
+      "Pag-export na functionality"
+    ],
+    "contact": "Kontak",
+    "website": "Website",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Invalid na format ng oras",
+    "networkError": "Nagkaroon ng network error",
+    "tryAgain": "Subukan ulit"
+  },
+  "common": {
+    "loading": "Lo-loading...",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "confirm": "Kumpirmahin",
+    "delete": "I-delete",
+    "edit": "I-edit",
+    "close": "Isara",
+    "ok": "OK",
+    "yes": "Oo",
+    "no": "Hindi"
+  }
+}

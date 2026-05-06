@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Jam Dangang Profesional",
+    "description": "Pengukuran masa yang tepat untuk atlet, profesional dan semua orang"
+  },
+  "stopwatch": {
+    "start": "Mula",
+    "stop": "Henti",
+    "reset": "Tetapkan Semula",
+    "lap": "Pusingan",
+    "clear": "Kosongkan",
+    "time": "Masa",
+    "laps": "Pusingan",
+    "noLaps": "Tiada pusingan direkod",
+    "lapTime": "Masa Pusingan",
+    "totalTime": "Jumlah Masa"
+  },
+  "countdown": {
+    "hours": "Jam",
+    "minutes": "Minit", 
+    "seconds": "Saat",
+    "start": "Mula",
+    "stop": "Henti",
+    "reset": "Tetapkan Semula",
+    "timeUp": "Masa Tamat!",
+    "setTime": "Tetapkan masa undur balik"
+  },
+  "settings": {
+    "title": "Tetapan",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "sound": "Bunyi",
+    "notifications": "Pemberitahuan",
+    "darkMode": "Mode Gelap",
+    "lightMode": "Mode Terang",
+    "autoMode": "Mode Auto"
+  },
+  "navigation": {
+    "stopwatch": "Jam Dangang",
+    "countdown": "Undur Balik",
+    "settings": "Tetapan",
+    "about": "Tentang"
+  },
+  "about": {
+    "title": "Tentang HookWatch",
+    "version": "Versi",
+    "description": "HookWatch adalah aplikasi jam dangang dan pemasa tahap profesional yang direka untuk pengukuran masa yang tepat.",
+    "features": "Ciri-ciri",
+    "featureList": [
+      "Pengukuran masa ketepatan milisaat",
+      "Rakaman masa pusingan",
+      "Pemasa undur balik",
+      "Pelbagai tema",
+      "Sokongan bahasa antarabangsa",
+      "Fungsi eksport"
+    ],
+    "contact": "Hubungi",
+    "website": "Laman Web",
+    "email": "Emel"
+  },
+  "errors": {
+    "invalidTime": "Format masa tidak sah",
+    "networkError": "Ralat rangkaian telah berlaku",
+    "tryAgain": "Sila cuba lagi"
+  },
+  "common": {
+    "loading": "Memuatkan...",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "confirm": "Sahkan",
+    "delete": "Padam",
+    "edit": "Edit",
+    "close": "Tutup",
+    "ok": "OK",
+    "yes": "Ya",
+    "no": "Tidak"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesjonalny Stoper",
+    "description": "Precyzyjny pomiar czasu dla sportowców, profesjonalistów i wszystkich innych"
+  },
+  "stopwatch": {
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Resetuj",
+    "lap": "Okrążenie",
+    "clear": "Wyczyść",
+    "time": "Czas",
+    "laps": "Okrążenia",
+    "noLaps": "Brak zapisanych okrążeń",
+    "lapTime": "Czas Okrążenia",
+    "totalTime": "Całkowity Czas"
+  },
+  "countdown": {
+    "hours": "Godziny",
+    "minutes": "Minuty", 
+    "seconds": "Sekundy",
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Resetuj",
+    "timeUp": "Czas Upłynął!",
+    "setTime": "Ustaw czas odliczania"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "language": "Język",
+    "theme": "Motyw",
+    "sound": "Dźwięk",
+    "notifications": "Powiadomienia",
+    "darkMode": "Tryb Ciemny",
+    "lightMode": "Tryb Jasny",
+    "autoMode": "Tryb Automatyczny"
+  },
+  "navigation": {
+    "stopwatch": "Stoper",
+    "countdown": "Odliczanie",
+    "settings": "Ustawienia",
+    "about": "O Aplikacji"
+  },
+  "about": {
+    "title": "O HookWatch",
+    "version": "Wersja",
+    "description": "HookWatch to profesjonalna aplikacja stopera i timera zaprojektowana do precyzyjnego pomiaru czasu.",
+    "features": "Funkcje",
+    "featureList": [
+      "Precyzyjny pomiar czasu z dokładnością do milisekund",
+      "Rejestracja czasów okrążeń",
+      "Timer odliczający",
+      "Wiele motywów",
+      "Międzynarodowe wsparcie językowe",
+      "Funkcjonalność eksportu"
+    ],
+    "contact": "Kontakt",
+    "website": "Strona WWW",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Nieprawidłowy format czasu",
+    "networkError": "Wystąpił błąd sieci",
+    "tryAgain": "Spróbuj ponownie"
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "confirm": "Potwierdź",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "ok": "OK",
+    "yes": "Tak",
+    "no": "Nie"
+  }
+}

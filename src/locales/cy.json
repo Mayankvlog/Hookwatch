@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Stopwyr Proffesiynol",
+    "description": "Amser cywir i athletwyr, proffesiynolion a pawb rhyngddynt"
+  },
+  "stopwatch": {
+    "start": "Dechrau",
+    "stop": "Stopio",
+    "reset": "Ailosod",
+    "lap": "Cylch",
+    "clear": "Clirio",
+    "time": "Amser",
+    "laps": "Cylcheddau",
+    "noLaps": "Dim cylcheddau wedi'u cofnodi",
+    "lapTime": "Amser y Cylch",
+    "totalTime": "Amser Cyfan"
+  },
+  "countdown": {
+    "hours": "Oriau",
+    "minutes": "Munud", 
+    "seconds": "Eiliadau",
+    "start": "Dechrau",
+    "stop": "Stopio",
+    "reset": "Ailosod",
+    "timeUp": "Amser wedi dod i ben!",
+    "setTime": "Gosod amser cyfrif yn ôl"
+  },
+  "settings": {
+    "title": "Gosodiadau",
+    "language": "Iaith",
+    "theme": "Thema",
+    "sound": "Sain",
+    "notifications": "Hysbysiadau",
+    "darkMode": "Modd Tywyll",
+    "lightMode": "Modd Golau",
+    "autoMode": "Modd Awto"
+  },
+  "navigation": {
+    "stopwatch": "Stopwyr",
+    "countdown": "Cyfrif yn Ôl",
+    "settings": "Gosodiadau",
+    "about": "Amdanom"
+  },
+  "about": {
+    "title": "Amdanom HookWatch",
+    "version": "Fersiwn",
+    "description": "Mae HookWatch yn ap stopwyr a thamradd lefel proffesiynol wedi'i gynllunio ar gyfer amser cywir.",
+    "features": "Nodweddion",
+    "featureList": [
+      "Amser cywir millieili",
+      "Cofnodi amser cylch",
+      "Tamradd cyfrif yn ôl",
+      "Themau lluosog",
+      "Cymorth iaith rhyngwladol",
+      "Swyddogaeth allforio"
+    ],
+    "contact": "Cyswllt",
+    "website": "Gwefan",
+    "email": "E-bost"
+  },
+  "errors": {
+    "invalidTime": "Fformat amser annilys",
+    "networkError": "Digwyddodd gwall rhwydwaith",
+    "tryAgain": "Ceisiwch eto"
+  },
+  "common": {
+    "loading": "Yn llwytho...",
+    "save": "Cadw",
+    "cancel": "Diddymu",
+    "confirm": "Cadarnhau",
+    "delete": "Dileu",
+    "edit": "Golygu",
+    "close": "Cau",
+    "ok": "Iawn",
+    "yes": "Ydw",
+    "no": "Nac ydw"
+  }
+}

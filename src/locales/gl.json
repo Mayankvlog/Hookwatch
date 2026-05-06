@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Cronómetro Profesional",
+    "description": "Tempo de precisión para deportistas, profesionais e todos entre eles"
+  },
+  "stopwatch": {
+    "start": "Iniciar",
+    "stop": "Parar",
+    "reset": "Restablecer",
+    "lap": "Volta",
+    "clear": "Limpar",
+    "time": "Tempo",
+    "laps": "Voltas",
+    "noLaps": "Non se rexistraron voltas",
+    "lapTime": "Tempo de Volta",
+    "totalTime": "Tempo Total"
+  },
+  "countdown": {
+    "hours": "Horas",
+    "minutes": "Minutos", 
+    "seconds": "Segundos",
+    "start": "Iniciar",
+    "stop": "Parar",
+    "reset": "Restablecer",
+    "timeUp": "¡O tempo rematou!",
+    "setTime": "Establecer tempo de conta atrás"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma",
+    "theme": "Tema",
+    "sound": "Son",
+    "notifications": "Notificacións",
+    "darkMode": "Modo Escuro",
+    "lightMode": "Modo Claro",
+    "autoMode": "Modo Automático"
+  },
+  "navigation": {
+    "stopwatch": "Cronómetro",
+    "countdown": "Conta Atrás",
+    "settings": "Configuración",
+    "about": "Sobre"
+  },
+  "about": {
+    "title": "Sobre HookWatch",
+    "version": "Versión",
+    "description": "HookWatch é unha aplicación de cronómetro e temporizador de nivel profesional deseñada para tempo de precisión.",
+    "features": "Características",
+    "featureList": [
+      "Tempo de precisión de milisegundos",
+      "Rexistro de tempo de volta",
+      "Temporizador de conta atrás",
+      "Múltiples temas",
+      "Soporte de idioma internacional",
+      "Funcionalidade de exportación"
+    ],
+    "contact": "Contacto",
+    "website": "Sitio web",
+    "email": "Correo electrónico"
+  },
+  "errors": {
+    "invalidTime": "Formato de tempo non válido",
+    "networkError": "Produciuse un erro de rede",
+    "tryAgain": "Por favor, inténteo de novo"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "save": "Gardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Pechar",
+    "ok": "OK",
+    "yes": "Si",
+    "no": "Non"
+  }
+}

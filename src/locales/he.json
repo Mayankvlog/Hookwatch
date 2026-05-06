@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - שעון עצר מקצועי",
+    "description": "תזמון מדויק לספורטאים, אנשי מקצוע וכולם ביניהם"
+  },
+  "stopwatch": {
+    "start": "התחל",
+    "stop": "עצור",
+    "reset": "איפוס",
+    "lap": "הקפה",
+    "clear": "נקה",
+    "time": "זמן",
+    "laps": "הקפות",
+    "noLaps": "לא נרשמו הקפות",
+    "lapTime": "זמן הקפה",
+    "totalTime": "זמן כולל"
+  },
+  "countdown": {
+    "hours": "שעות",
+    "minutes": "דקות", 
+    "seconds": "שניות",
+    "start": "התחל",
+    "stop": "עצור",
+    "reset": "איפוס",
+    "timeUp": "הזמן נגמר!",
+    "setTime": "הגדר זמן ספירה לאחור"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "language": "שפה",
+    "theme": "ערכת נושא",
+    "sound": "צליל",
+    "notifications": "התראות",
+    "darkMode": "מצב כהה",
+    "lightMode": "מצב בהיר",
+    "autoMode": "מצב אוטומטי"
+  },
+  "navigation": {
+    "stopwatch": "שעון עצר",
+    "countdown": "ספירה לאחור",
+    "settings": "הגדרות",
+    "about": "אודות"
+  },
+  "about": {
+    "title": "אודות HookWatch",
+    "version": "גרסה",
+    "description": "HookWatch הוא יישום שעון עצר וטיימר ברמה מקצועית המיועד לתזמון מדויק.",
+    "features": "תכונות",
+    "featureList": [
+      "תזמון מדויק של מילישניות",
+      "רישום זמן הקפה",
+      "טיימר ספירה לאחור",
+      "ערכות נושא מרובות",
+      "תמיכה בשפות בינלאומיות",
+      "פונקציונליות ייצוא"
+    ],
+    "contact": "צור קשר",
+    "website": "אתר אינטרנט",
+    "email": "דוא\"ל"
+  },
+  "errors": {
+    "invalidTime": "פורמט זמן לא חוקי",
+    "networkError": "אירעה שגיאת רשת",
+    "tryAgain": "אנא נסה שוב"
+  },
+  "common": {
+    "loading": "טוען...",
+    "save": "שמור",
+    "cancel": "בטל",
+    "confirm": "אשר",
+    "delete": "מחק",
+    "edit": "ערוך",
+    "close": "סגור",
+    "ok": "אישור",
+    "yes": "כן",
+    "no": "לא"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Kronometru Professjonali",
+    "description": "Ħin preċiż għall-atleti, professjonisti u kull bejniet"
+  },
+  "stopwatch": {
+    "start": "Ibda",
+    "stop": "Waqfa",
+    "reset": "Irissettja",
+    "lap": "Lap",
+    "clear": "Ħassar",
+    "time": "Ħin",
+    "laps": "Laps",
+    "noLaps": "Ebda laps irreġistrati",
+    "lapTime": "Ħin tal-Lap",
+    "totalTime": "Ħin Totali"
+  },
+  "countdown": {
+    "hours": "Sigħat",
+    "minutes": "Minuti", 
+    "seconds": "Sekondi",
+    "start": "Ibda",
+    "stop": "Waqfa",
+    "reset": "Irissettja",
+    "timeUp": "Il-ħin spiċċa!",
+    "setTime": "Stabbilixxi ħin ta' countdown"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Lingwa",
+    "theme": "Tema",
+    "sound": "Ħoss",
+    "notifications": "Notifiki",
+    "darkMode": "Modalità Skura",
+    "lightMode": "Modalità Ċara",
+    "autoMode": "Modalità Awtomatika"
+  },
+  "navigation": {
+    "stopwatch": "Kronometru",
+    "countdown": "Countdown",
+    "settings": "Settings",
+    "about": "Dwar"
+  },
+  "about": {
+    "title": "Dwar HookWatch",
+    "version": "Verżjoni",
+    "description": "HookWatch hija applikazzjoni ta' kronometru u timer ta' livell professjonali ddisinjata għall-ħin preċiż.",
+    "features": "Karatteristiċi",
+    "featureList": [
+      "Ħin preċiż ta' milisekondi",
+      "Reġistru tal-ħin tal-lap",
+      "Timer ta' countdown",
+      "Temi multipli",
+      "Appoġġ lingwistiku internazzjonali",
+      "Funzjonalità ta' esportazzjoni"
+    ],
+    "contact": "Kontatt",
+    "website": "Website",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Format tal-ħin invalidu",
+    "networkError": "Seħħet żball tan-netwerk",
+    "tryAgain": "Jekk jogħfokk erġa' pprova"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Ħlief",
+    "cancel": "Ikkanċella",
+    "confirm": "Ikkonferma",
+    "delete": "Ħassar",
+    "edit": "Editja",
+    "close": "Agħlaq",
+    "ok": "OK",
+    "yes": "Iva",
+    "no": "Le"
+  }
+}

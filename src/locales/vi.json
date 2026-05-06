@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Đồng hồ Bấm giờ Chuyên nghiệp",
+    "description": "Đo thời gian chính xác cho vận động viên, chuyên gia và mọi người"
+  },
+  "stopwatch": {
+    "start": "Bắt đầu",
+    "stop": "Dừng",
+    "reset": "Đặt lại",
+    "lap": "Vòng",
+    "clear": "Xóa",
+    "time": "Thời gian",
+    "laps": "Vòng",
+    "noLaps": "Không có vòng nào được ghi lại",
+    "lapTime": "Thời gian Vòng",
+    "totalTime": "Tổng Thời gian"
+  },
+  "countdown": {
+    "hours": "Giờ",
+    "minutes": "Phút", 
+    "seconds": "Giây",
+    "start": "Bắt đầu",
+    "stop": "Dừng",
+    "reset": "Đặt lại",
+    "timeUp": "Hết giờ!",
+    "setTime": "Đặt thời gian đếm ngược"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "theme": "Chủ đề",
+    "sound": "Âm thanh",
+    "notifications": "Thông báo",
+    "darkMode": "Chế độ Tối",
+    "lightMode": "Chế độ Sáng",
+    "autoMode": "Chế độ Tự động"
+  },
+  "navigation": {
+    "stopwatch": "Đồng hồ Bấm giờ",
+    "countdown": "Đếm ngược",
+    "settings": "Cài đặt",
+    "about": "Về"
+  },
+  "about": {
+    "title": "Về HookWatch",
+    "version": "Phiên bản",
+    "description": "HookWatch là ứng dụng đồng hồ bấm giờ và hẹn giờ cấp chuyên nghiệp được thiết kế để đo thời gian chính xác.",
+    "features": "Tính năng",
+    "featureList": [
+      "Đo thời gian chính xác mili giây",
+      "Ghi lại thời gian vòng",
+      "Hẹn giờ đếm ngược",
+      "Nhiều chủ đề",
+      "Hỗ trợ ngôn ngữ quốc tế",
+      "Chức năng xuất"
+    ],
+    "contact": "Liên hệ",
+    "website": "Trang web",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Định dạng thời gian không hợp lệ",
+    "networkError": "Đã xảy ra lỗi mạng",
+    "tryAgain": "Vui lòng thử lại"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "close": "Đóng",
+    "ok": "OK",
+    "yes": "Có",
+    "no": "Không"
+  }
+}

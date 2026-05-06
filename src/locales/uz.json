@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professional Sekundomer",
+    "description": "Sportchilar, professionallar va ular orasidagi barcha uchun aniq vaqt o'lchash"
+  },
+  "stopwatch": {
+    "start": "Boshlash",
+    "stop": "To'xtatish",
+    "reset": "Qayta o'rnatish",
+    "lap": "Aylanma",
+    "clear": "Tozalash",
+    "time": "Vaqt",
+    "laps": "Aylanmalar",
+    "noLaps": "Hech qanday aylanma yozilmagan",
+    "lapTime": "Aylanma Vaqti",
+    "totalTime": "Jami Vaqt"
+  },
+  "countdown": {
+    "hours": "Soat",
+    "minutes": "Daqiqa", 
+    "seconds": "Soniya",
+    "start": "Boshlash",
+    "stop": "To'xtatish",
+    "reset": "Qayta o'rnatish",
+    "timeUp": "Vaqt tugadi!",
+    "setTime": "Teskari sanash vaqtini o'rnatish"
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "language": "Til",
+    "theme": "Mavzu",
+    "sound": "Ovoz",
+    "notifications": "Bildirishnomalar",
+    "darkMode": "Qorong'u Rejim",
+    "lightMode": "Yorug' Rejim",
+    "autoMode": "Avtomatik Rejim"
+  },
+  "navigation": {
+    "stopwatch": "Sekundomer",
+    "countdown": "Teskari Sanash",
+    "settings": "Sozlamalar",
+    "about": "Haqida"
+  },
+  "about": {
+    "title": "HookWatch Haqida",
+    "version": "Versiya",
+    "description": "HookWatch - bu aniq vaqt o'lchash uchun ishlab chiqilgan professional darajadagi sekundomer va taymer ilovasi.",
+    "features": "Xususiyatlar",
+    "featureList": [
+      "Millisekund aniqdagi vaqt o'lchash",
+      "Aylanma vaqtini yozish",
+      "Teskari sanash taymeri",
+      "Bir nechta mavzu",
+      "Xalqaro til qo'llab-quvvatlash",
+      "Eksport funktsiyasi"
+    ],
+    "contact": "Aloqa",
+    "website": "Veb-sayt",
+    "email": "Elektron pochta"
+  },
+  "errors": {
+    "invalidTime": "Noto'g'ri vaqt formati",
+    "networkError": "Tarmoq xatosi yuz berdi",
+    "tryAgain": "Iltimos, qayta urinib ko'ring"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "confirm": "Tasdiqlash",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "close": "Yopish",
+    "ok": "OK",
+    "yes": "Ha",
+    "no": "Yo'q"
+  }
+}

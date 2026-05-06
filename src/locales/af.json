@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professionele Stopwag",
+    "description": "Presiese tydsmeting vir atlete, professionele en almal daartussen"
+  },
+  "stopwatch": {
+    "start": "Begin",
+    "stop": "Stop",
+    "reset": "Herstel",
+    "lap": "Rondte",
+    "clear": "Vee uit",
+    "time": "Tyd",
+    "laps": "Rondtes",
+    "noLaps": "Geen rondtes aangeteken",
+    "lapTime": "Rondtetyd",
+    "totalTime": "Totale Tyd"
+  },
+  "countdown": {
+    "hours": "Ure",
+    "minutes": "Minute", 
+    "seconds": "Sekondes",
+    "start": "Begin",
+    "stop": "Stop",
+    "reset": "Herstel",
+    "timeUp": "Tyd verby!",
+    "setTime": "Stel afteltyd in"
+  },
+  "settings": {
+    "title": "Instellings",
+    "language": "Taal",
+    "theme": "Tema",
+    "sound": "Klank",
+    "notifications": "Kennisgewings",
+    "darkMode": "Donker Modus",
+    "lightMode": "Ligte Modus",
+    "autoMode": "Outomatiese Modus"
+  },
+  "navigation": {
+    "stopwatch": "Stopwag",
+    "countdown": "Aftel",
+    "settings": "Instellings",
+    "about": "Oor"
+  },
+  "about": {
+    "title": "Oor HookWatch",
+    "version": "Weergawe",
+    "description": "HookWatch is 'n professionele stopwag- en tydhouer-toepassing wat ontwerp is vir presiese tydsmeting.",
+    "features": "Kenmerke",
+    "featureList": [
+      "Presiese tydsmeting op millisekonde",
+      "Rondtetyd-opname",
+      "Aftel-tydhouer",
+      "Veelvuldige temas",
+      "Internasionale taalondersteuning",
+      "Eksportfunksionaliteit"
+    ],
+    "contact": "Kontak",
+    "website": "Webwerf",
+    "email": "E-pos"
+  },
+  "errors": {
+    "invalidTime": "Ongeldige tydformaat",
+    "networkError": "'n Netwerkfout het voorgekom",
+    "tryAgain": "Probeer asseblief weer"
+  },
+  "common": {
+    "loading": "Laai...",
+    "save": "Stoor",
+    "cancel": "Kanselleer",
+    "confirm": "Bevestig",
+    "delete": "Verwyder",
+    "edit": "Wysig",
+    "close": "Sluit",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nee"
+  }
+}

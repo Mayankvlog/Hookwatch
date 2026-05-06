@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Istophuvi Esiprofeshinala",
+    "description": "Ukuhlola ngokunembile kubadlali, abaphrofeshinala nabakho bonke phakathi kwabo"
+  },
+  "stopwatch": {
+    "start": "Qala",
+    "stop": "Yima",
+    "reset": "Setha kabusha",
+    "lap": "I-Lap",
+    "clear": "Sula",
+    "time": "Isikhathi",
+    "laps": "Ama-Lap",
+    "noLaps": "Awukho ama-lap alerekodiwe",
+    "lapTime": "Isikhathi se-Lap",
+    "totalTime": "Isikhathi Siqondile"
+  },
+  "countdown": {
+    "hours": "Amahora",
+    "minutes": "Amaminithi", 
+    "seconds": "Amasekhondi",
+    "start": "Qala",
+    "stop": "Yima",
+    "reset": "Setha kabusha",
+    "timeUp": "Isikhathi sesiphelile!",
+    "setTime": "Hlela isikhathi sokubala umva"
+  },
+  "settings": {
+    "title": "Izilungiselelo",
+    "language": "Ulimi",
+    "theme": "Isihloko",
+    "sound": "Umsindo",
+    "notifications": "Izaziso",
+    "darkMode": "Indlela eMnyama",
+    "lightMode": "Indlela eMhlophe",
+    "autoMode": "Indlela eNgokuzenzekelayo"
+  },
+  "navigation": {
+    "stopwatch": "Istophuvi",
+    "countdown": "Ukubala umva",
+    "settings": "Izilungiselelo",
+    "about": "Mayelana"
+  },
+  "about": {
+    "title": "Mayelana ne-HookWatch",
+    "version": "Inguqulo",
+    "description": "I-HookWatch iyuhlelo lwe-stophuvi netimer lelivela eliprrofeshinali olakhiwe ukuhlola ngokunembile.",
+    "features": "Izici",
+    "featureList": [
+      "Ukuhlola kwamasekhondi anembile",
+      "Ukurekhoda isikhathi se-lap",
+      "Itimer yokubala umva",
+      "Izihloko eziningi",
+      "Ukuxhasa kolwimi lomhlaba",
+      "Ukukhipha umsebenzi"
+    ],
+    "contact": "Ukuxhumana",
+    "website": "Iwebhusayithi",
+    "email": "I-imeyili"
+  },
+  "errors": {
+    "invalidTime": "Ifomethi yesikhathi esingavumelekile",
+    "networkError": "Kwenzeke iphutha lenethiwekhi",
+    "tryAgain": "Sicela uzame futhi"
+  },
+  "common": {
+    "loading": "Ilayisha...",
+    "save": "Gcina",
+    "cancel": "Khansela",
+    "confirm": "Qinisekisa",
+    "delete": "Susa",
+    "edit": "Hlela",
+    "close": "Vala",
+    "ok": "Kulungile",
+    "yes": "Yebo",
+    "no": "Cha"
+  }
+}

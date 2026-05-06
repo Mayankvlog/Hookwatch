@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professional Xronometr",
+    "description": "İdmançılar, peşəkarlar və onların arasında olan hər kəs üçün dəqiq vaxt ölçmə"
+  },
+  "stopwatch": {
+    "start": "Başla",
+    "stop": "Dayandır",
+    "reset": "Sıfırla",
+    "lap": "Dövr",
+    "clear": "Təmizlə",
+    "time": "Vaxt",
+    "laps": "Dövrlər",
+    "noLaps": "Heç bir dövr qeyd edilməyib",
+    "lapTime": "Dövr Vaxtı",
+    "totalTime": "Ümumi Vaxt"
+  },
+  "countdown": {
+    "hours": "Saat",
+    "minutes": "Dəqiqə", 
+    "seconds": "Saniyə",
+    "start": "Başla",
+    "stop": "Dayandır",
+    "reset": "Sıfırla",
+    "timeUp": "Vaxt bitdi!",
+    "setTime": "Geri sayma vaxtını təyin et"
+  },
+  "settings": {
+    "title": "Parametrlər",
+    "language": "Dil",
+    "theme": "Tema",
+    "sound": "Səs",
+    "notifications": "Bildirişlər",
+    "darkMode": "Qaranlıq Rejim",
+    "lightMode": "İşıqlı Rejim",
+    "autoMode": "Avtomatik Rejim"
+  },
+  "navigation": {
+    "stopwatch": "Xronometr",
+    "countdown": "Geri Sayma",
+    "settings": "Parametrlər",
+    "about": "Haqqında"
+  },
+  "about": {
+    "title": "HookWatch Haqqında",
+    "version": "Versiya",
+    "description": "HookWatch dəqiq vaxt ölçmə üçün hazırlanmış professional səviyyəli xronometr və taymer tətbiqidir.",
+    "features": "Xüsusiyyətlər",
+    "featureList": [
+      "Millisaniyə dəqiqliyi ilə vaxt ölçmə",
+      "Dövr vaxtının qeydi",
+      "Geri sayma taymeri",
+      "Çoxsaylı temalar",
+      "Beynəlxalq dil dəstəyi",
+      "İxrac funksionallığı"
+    ],
+    "contact": "Əlaqə",
+    "website": "Veb sayt",
+    "email": "Elektron poçt"
+  },
+  "errors": {
+    "invalidTime": "Yanlış vaxt formatı",
+    "networkError": "Şəbəkə xətası baş verdi",
+    "tryAgain": "Lütfən yenidən cəhd edin"
+  },
+  "common": {
+    "loading": "Yüklənir...",
+    "save": "Saxla",
+    "cancel": "Ləğv et",
+    "confirm": "Təsdiqlə",
+    "delete": "Sil",
+    "edit": "Redaktə et",
+    "close": "Bağla",
+    "ok": "OK",
+    "yes": "Bəli",
+    "no": "Xeyr"
+  }
+}

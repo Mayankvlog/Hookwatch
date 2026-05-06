@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Ammattimainen Sekuntikello",
+    "description": "Tarkka ajoitus urheilijoille, ammattilaisille ja kaikille välillä"
+  },
+  "stopwatch": {
+    "start": "Käynnistä",
+    "stop": "Pysäytä",
+    "reset": "Nollaa",
+    "lap": "Kierros",
+    "clear": "Tyhjennä",
+    "time": "Aika",
+    "laps": "Kierrokset",
+    "noLaps": "Ei kierroksia tallennettu",
+    "lapTime": "Kierrosaika",
+    "totalTime": "Kokonaisaika"
+  },
+  "countdown": {
+    "hours": "Tunnit",
+    "minutes": "Minuutit", 
+    "seconds": "Sekunnit",
+    "start": "Käynnistä",
+    "stop": "Pysäytä",
+    "reset": "Nollaa",
+    "timeUp": "Aika loppui!",
+    "setTime": "Aseta lähtölaskenta-aika"
+  },
+  "settings": {
+    "title": "Asetukset",
+    "language": "Kieli",
+    "theme": "Teema",
+    "sound": "Ääni",
+    "notifications": "Ilmoitukset",
+    "darkMode": "Tumma tila",
+    "lightMode": "Vaalea tila",
+    "autoMode": "Automaattinen tila"
+  },
+  "navigation": {
+    "stopwatch": "Sekuntikello",
+    "countdown": "Lähtölaskenta",
+    "settings": "Asetukset",
+    "about": "Tietoja"
+  },
+  "about": {
+    "title": "Tietoja HookWatchista",
+    "version": "Versio",
+    "description": "HookWatch on ammattitason sekuntikello- ja ajastinsovellus, joka on suunniteltu tarkkaan ajotukseen.",
+    "features": "Ominaisuudet",
+    "featureList": [
+      "Millisekunnin tarkka ajoitus",
+      "Kierrosajan tallennus",
+      "Lähtölaskenta-ajastin",
+      "Useita teemoja",
+      "Kansainvälinen kielituki",
+      "Vientitoiminnallisuus"
+    ],
+    "contact": "Yhteystiedot",
+    "website": "Verkkosivusto",
+    "email": "Sähköposti"
+  },
+  "errors": {
+    "invalidTime": "Virheellinen aikamuoto",
+    "networkError": "Tapahtui verkkovirhe",
+    "tryAgain": "Yritä uudelleen"
+  },
+  "common": {
+    "loading": "Ladataan...",
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "confirm": "Vahvista",
+    "delete": "Poista",
+    "edit": "Muokkaa",
+    "close": "Sulje",
+    "ok": "OK",
+    "yes": "Kyllä",
+    "no": "Ei"
+  }
+}

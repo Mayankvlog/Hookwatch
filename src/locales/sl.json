@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesionalna Štoparica",
+    "description": "Precizno merjenje časa za športnike, profesionalce in vse med njimi"
+  },
+  "stopwatch": {
+    "start": "Začni",
+    "stop": "Ustavi",
+    "reset": "Ponastavi",
+    "lap": "Krog",
+    "clear": "Počisti",
+    "time": "Čas",
+    "laps": "Krogi",
+    "noLaps": "Ni zabeleženih krogov",
+    "lapTime": "Čas Kroga",
+    "totalTime": "Skupni Čas"
+  },
+  "countdown": {
+    "hours": "Ure",
+    "minutes": "Minute", 
+    "seconds": "Sekunde",
+    "start": "Začni",
+    "stop": "Ustavi",
+    "reset": "Ponastavi",
+    "timeUp": "Čas je potekel!",
+    "setTime": "Nastavi čas odštevanja"
+  },
+  "settings": {
+    "title": "Nastavitve",
+    "language": "Jezik",
+    "theme": "Tema",
+    "sound": "Zvok",
+    "notifications": "Obvestila",
+    "darkMode": "Temni Način",
+    "lightMode": "Svetli Način",
+    "autoMode": "Samodejni Način"
+  },
+  "navigation": {
+    "stopwatch": "Štoparica",
+    "countdown": "Odštevanje",
+    "settings": "Nastavitve",
+    "about": "O"
+  },
+  "about": {
+    "title": "O HookWatch",
+    "version": "Različica",
+    "description": "HookWatch je aplikacija štoparice in časomera profesionalne ravni, zasnovana za precizno merjenje časa.",
+    "features": "Značilnosti",
+    "featureList": [
+      "Precizno merjenje časa na milisekunde",
+      "Snemanje časa kroga",
+      "Časomer odštevanja",
+      "Več tem",
+      "Mednarodna jezikovna podpora",
+      "Funkcionalnost izvoza"
+    ],
+    "contact": "Stik",
+    "website": "Spletna stran",
+    "email": "E-pošta"
+  },
+  "errors": {
+    "invalidTime": "Neveljaven format časa",
+    "networkError": "Prišlo je do napake v omrežju",
+    "tryAgain": "Prosimo poskusite znova"
+  },
+  "common": {
+    "loading": "Nalaganje...",
+    "save": "Shrani",
+    "cancel": "Prekliči",
+    "confirm": "Potrdi",
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "close": "Zapri",
+    "ok": "V redu",
+    "yes": "Da",
+    "no": "Ne"
+  }
+}

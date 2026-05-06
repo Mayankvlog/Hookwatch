@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesionalus Chronometras",
+    "description": "Tikslus laiko matavimas sportininkams, profesionalams ir visiems tarp jų"
+  },
+  "stopwatch": {
+    "start": "Pradėti",
+    "stop": "Sustabdyti",
+    "reset": "Atstatyti",
+    "lap": "Ratas",
+    "clear": "Išvalyti",
+    "time": "Laikas",
+    "laps": "Ratai",
+    "noLaps": "Nėra įrašytų ratų",
+    "lapTime": "Rato Laikas",
+    "totalTime": "Bendras Laikas"
+  },
+  "countdown": {
+    "hours": "Valandos",
+    "minutes": "Minutės", 
+    "seconds": "Sekundės",
+    "start": "Pradėti",
+    "stop": "Sustabdyti",
+    "reset": "Atstatyti",
+    "timeUp": "Laikas baigėsi!",
+    "setTime": "Nustatyti atgalinio skaičiavimo laiką"
+  },
+  "settings": {
+    "title": "Nustatymai",
+    "language": "Kalba",
+    "theme": "Tema",
+    "sound": "Garsas",
+    "notifications": "Pranešimai",
+    "darkMode": "Tamsus Režimas",
+    "lightMode": "Šviesus Režimas",
+    "autoMode": "Automatinis Režimas"
+  },
+  "navigation": {
+    "stopwatch": "Chronometras",
+    "countdown": "Atgalinis Skaičiavimas",
+    "settings": "Nustatymai",
+    "about": "Apie"
+  },
+  "about": {
+    "title": "Apie HookWatch",
+    "version": "Versija",
+    "description": "HookWatch yra profesionalaus lygio chronometro ir laikmačio programa, sukurta tiksliam laiko matavimui.",
+    "features": "Funkcijos",
+    "featureList": [
+      "Tikslus laiko matavimas milisekundų tikslumu",
+      "Rato laiko įrašymas",
+      "Atgalinio skaičiavimo laikmatis",
+      "Kelios temos",
+      "Tarptautinė kalbos palaikymas",
+      "Eksportavimo funkcionalumas"
+    ],
+    "contact": "Kontaktai",
+    "website": "Svetainė",
+    "email": "El. paštas"
+  },
+  "errors": {
+    "invalidTime": "Neteisingas laiko formatas",
+    "networkError": "Įvyko tinklo klaida",
+    "tryAgain": "Prašome bandyti dar kartą"
+  },
+  "common": {
+    "loading": "Kraunama...",
+    "save": "Išsaugoti",
+    "cancel": "Atšaukti",
+    "confirm": "Patvirtinti",
+    "delete": "Ištrinti",
+    "edit": "Redaguoti",
+    "close": "Uždaryti",
+    "ok": "Gerai",
+    "yes": "Taip",
+    "no": "Ne"
+  }
+}

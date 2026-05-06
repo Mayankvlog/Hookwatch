@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesionální Stopky",
+    "description": "Přesné časování pro sportovce, profesionály a všechny mezi"
+  },
+  "stopwatch": {
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Resetovat",
+    "lap": "Kolo",
+    "clear": "Smazat",
+    "time": "Čas",
+    "laps": "Kola",
+    "noLaps": "Nejsou zaznamenána žádná kola",
+    "lapTime": "Čas Kola",
+    "totalTime": "Celkový Čas"
+  },
+  "countdown": {
+    "hours": "Hodiny",
+    "minutes": "Minuty", 
+    "seconds": "Sekundy",
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Resetovat",
+    "timeUp": "Čas vypršel!",
+    "setTime": "Nastavit čas odpočítávání"
+  },
+  "settings": {
+    "title": "Nastavení",
+    "language": "Jazyk",
+    "theme": "Motiv",
+    "sound": "Zvuk",
+    "notifications": "Oznámení",
+    "darkMode": "Tmavý Režim",
+    "lightMode": "Světlý Režim",
+    "autoMode": "Automatický Režim"
+  },
+  "navigation": {
+    "stopwatch": "Stopky",
+    "countdown": "Odpočítávání",
+    "settings": "Nastavení",
+    "about": "O"
+  },
+  "about": {
+    "title": "O HookWatch",
+    "version": "Verze",
+    "description": "HookWatch je aplikace profesionálních stopek a časovačů navržená pro přesné časování.",
+    "features": "Funkce",
+    "featureList": [
+      "Přesné časování na milisekundy",
+      "Záznam času kola",
+      "Časovač odpočítávání",
+      "Více motivů",
+      "Mezinárodní podpora jazyků",
+      "Funkce exportu"
+    ],
+    "contact": "Kontakt",
+    "website": "Webová stránka",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Neplatný formát času",
+    "networkError": "Došlo k síťové chybě",
+    "tryAgain": "Zkuste to prosím znovu"
+  },
+  "common": {
+    "loading": "Načítání...",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "confirm": "Potvrdit",
+    "delete": "Smazat",
+    "edit": "Upravit",
+    "close": "Zavřít",
+    "ok": "OK",
+    "yes": "Ano",
+    "no": "Ne"
+  }
+}

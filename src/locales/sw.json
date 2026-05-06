@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Saa ya Kazi ya Uchambuzi",
+    "description": "Ukadiraji wa usahihi kwa wanariadha, wataalam na kila mtu kati yao"
+  },
+  "stopwatch": {
+    "start": "Anza",
+    "stop": "Acha",
+    "reset": "Weka upya",
+    "lap": "Lap",
+    "clear": "Safisha",
+    "time": "Muda",
+    "laps": "Lap",
+    "noLaps": "Hakuna lap zilizorekodiwa",
+    "lapTime": "Muda wa Lap",
+    "totalTime": "Muda Jumla"
+  },
+  "countdown": {
+    "hours": "Masaa",
+    "minutes": "Dakika", 
+    "seconds": "Sekunde",
+    "start": "Anza",
+    "stop": "Acha",
+    "reset": "Weka upya",
+    "timeUp": "Muda umekwisha!",
+    "setTime": "Weka muda wa kuhesabu nyuma"
+  },
+  "settings": {
+    "title": "Mipangilio",
+    "language": "Lugha",
+    "theme": "Mandhari",
+    "sound": "Sauti",
+    "notifications": "Arifa",
+    "darkMode": "Hali ya Giza",
+    "lightMode": "Hali ya Mwanga",
+    "autoMode": "Hali ya Otomatiki"
+  },
+  "navigation": {
+    "stopwatch": "Saa ya Uchambuzi",
+    "countdown": "Kuhesabu Nyuma",
+    "settings": "Mipangilio",
+    "about": "Kuhusu"
+  },
+  "about": {
+    "title": "Kuhusu HookWatch",
+    "version": "Toleo",
+    "description": "HookWatch ni programu ya saa ya uchambuzi na kipima muda ya kiwango cha kitaalamu iliyoundwa kwa ukadiraji wa usahihi.",
+    "features": "Vipengele",
+    "featureList": [
+      "Ukadiraji wa usahihi wa millisecond",
+      "Ukumbusho wa muda wa lap",
+      "Kipima muda wa kuhesabu nyuma",
+      "Mandhari nyingi",
+      "Msaada wa lugha ya kimataifa",
+      "Uwezo wa kutoa nje"
+    ],
+    "contact": "Mawasiliano",
+    "website": "Tovuti",
+    "email": "Barua pepe"
+  },
+  "errors": {
+    "invalidTime": "Muundo wa muda batili",
+    "networkError": "Hitilafu ya mtandao imetokea",
+    "tryAgain": "Tafadhali jaribu tena"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "save": "Hifadhi",
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "close": "Funga",
+    "ok": "Sawa",
+    "yes": "Ndiyo",
+    "no": "Hapana"
+  }
+}

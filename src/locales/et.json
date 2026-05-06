@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professionaalne Stoppwatch",
+    "description": "Precise ajamise sportlastele, professionaalidele ja kõikidele vahel"
+  },
+  "stopwatch": {
+    "start": "Alusta",
+    "stop": "Peata",
+    "reset": "Lähtesta",
+    "lap": "Ring",
+    "clear": "Kustuta",
+    "time": "Aeg",
+    "laps": "Ringid",
+    "noLaps": "Ringe ei ole salvestatud",
+    "lapTime": "Ringi Aeg",
+    "totalTime": "Kogu Aeg"
+  },
+  "countdown": {
+    "hours": "Tunnid",
+    "minutes": "Minutid", 
+    "seconds": "Sekundid",
+    "start": "Alusta",
+    "stop": "Peata",
+    "reset": "Lähtesta",
+    "timeUp": "Aeg on läbi!",
+    "setTime": "Määra tagasiloenduse aeg"
+  },
+  "settings": {
+    "title": "Sätted",
+    "language": "Keel",
+    "theme": "Teema",
+    "sound": "Heli",
+    "notifications": "Teavitused",
+    "darkMode": "Tume Režiim",
+    "lightMode": "Hele Režiim",
+    "autoMode": "Automaatne Režiim"
+  },
+  "navigation": {
+    "stopwatch": "Stoppwatch",
+    "countdown": "Tagasiloendus",
+    "settings": "Sätted",
+    "about": "Info"
+  },
+  "about": {
+    "title": "HookWatch Info",
+    "version": "Versioon",
+    "description": "HookWatch on professionaalne tase stoppwatch ja timer rakendus, mis on disainitud preciiseks ajamiseks.",
+    "features": "Omadused",
+    "featureList": [
+      "Millisekundi täpsusega ajamine",
+      "Ringi aja salvestamine",
+      "Tagasiloenduse timer",
+      "Mitu teemat",
+      "Rahvusvaheline keele tugi",
+      "Ekspordi funktsionaalsus"
+    ],
+    "contact": "Kontakt",
+    "website": "Veebileht",
+    "email": "E-post"
+  },
+  "errors": {
+    "invalidTime": "Sobimatu aeg formaat",
+    "networkError": "Võrgu viga esines",
+    "tryAgain": "Palun proovige uuesti"
+  },
+  "common": {
+    "loading": "Laadimine...",
+    "save": "Salvesta",
+    "cancel": "Tühista",
+    "confirm": "Kinnita",
+    "delete": "Kustuta",
+    "edit": "Muuda",
+    "close": "Sulge",
+    "ok": "OK",
+    "yes": "Jah",
+    "no": "Ei"
+  }
+}

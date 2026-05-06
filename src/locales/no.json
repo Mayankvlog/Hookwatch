@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesjonell Stoppur",
+    "description": "Presis tidtaking for idrettsutøvere, profesjonelle og alle imellom"
+  },
+  "stopwatch": {
+    "start": "Start",
+    "stop": "Stopp",
+    "reset": "Tilbakestill",
+    "lap": "Runde",
+    "clear": "Tøm",
+    "time": "Tid",
+    "laps": "Runder",
+    "noLaps": "Ingen runder registrert",
+    "lapTime": "Rundetid",
+    "totalTime": "Total Tid"
+  },
+  "countdown": {
+    "hours": "Timer",
+    "minutes": "Minutter", 
+    "seconds": "Sekunder",
+    "start": "Start",
+    "stop": "Stopp",
+    "reset": "Tilbakestill",
+    "timeUp": "Tiden er ute!",
+    "setTime": "Sett nedtellingstid"
+  },
+  "settings": {
+    "title": "Innstillinger",
+    "language": "Språk",
+    "theme": "Tema",
+    "sound": "Lyd",
+    "notifications": "Varsler",
+    "darkMode": "Mørk Modus",
+    "lightMode": "Lys Modus",
+    "autoMode": "Auto Modus"
+  },
+  "navigation": {
+    "stopwatch": "Stoppur",
+    "countdown": "Nedtelling",
+    "settings": "Innstillinger",
+    "about": "Om"
+  },
+  "about": {
+    "title": "Om HookWatch",
+    "version": "Versjon",
+    "description": "HookWatch er en profesjonell stoppur- og timerapplikasjon designet for presis tidtaking.",
+    "features": "Funksjoner",
+    "featureList": [
+      "Millisekund presisjonstidtaking",
+      "Rundetidsregistrering",
+      "Nedtellingstimer",
+      "Flere temaer",
+      "Internasjonal språkstøtte",
+      "Eksportfunksjonalitet"
+    ],
+    "contact": "Kontakt",
+    "website": "Nettsted",
+    "email": "E-post"
+  },
+  "errors": {
+    "invalidTime": "Ugyldig tidsformat",
+    "networkError": "En nettverksfeil oppstod",
+    "tryAgain": "Vennligst prøv igjen"
+  },
+  "common": {
+    "loading": "Laster...",
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "confirm": "Bekreft",
+    "delete": "Slett",
+    "edit": "Rediger",
+    "close": "Lukk",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nei"
+  }
+}

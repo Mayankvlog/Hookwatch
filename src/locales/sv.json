@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professionell Stoppur",
+    "description": "Precis tidtagning för idrottare, proffs och alla däremellan"
+  },
+  "stopwatch": {
+    "start": "Starta",
+    "stop": "Stoppa",
+    "reset": "Återställ",
+    "lap": "Varv",
+    "clear": "Rensa",
+    "time": "Tid",
+    "laps": "Varv",
+    "noLaps": "Inga varv registrerade",
+    "lapTime": "Varvtid",
+    "totalTime": "Total Tid"
+  },
+  "countdown": {
+    "hours": "Timmar",
+    "minutes": "Minuter", 
+    "seconds": "Sekunder",
+    "start": "Starta",
+    "stop": "Stoppa",
+    "reset": "Återställ",
+    "timeUp": "Tiden ute!",
+    "setTime": "Ställ in nedräkningstid"
+  },
+  "settings": {
+    "title": "Inställningar",
+    "language": "Språk",
+    "theme": "Tema",
+    "sound": "Ljud",
+    "notifications": "Notifikationer",
+    "darkMode": "Mörkt Läge",
+    "lightMode": "Ljust Läge",
+    "autoMode": "Auto Läge"
+  },
+  "navigation": {
+    "stopwatch": "Stoppur",
+    "countdown": "Nedräkning",
+    "settings": "Inställningar",
+    "about": "Om"
+  },
+  "about": {
+    "title": "Om HookWatch",
+    "version": "Version",
+    "description": "HookWatch är en professionell stoppur- och timerapplikation designad för precisions tidtagning.",
+    "features": "Funktioner",
+    "featureList": [
+      "Millisekunds precisionstidtagning",
+      "Varvtidsinspelning",
+      "Nedräkningstimer",
+      "Flera teman",
+      "Internationellt språkstöd",
+      "Exportfunktionalitet"
+    ],
+    "contact": "Kontakt",
+    "website": "Webbplats",
+    "email": "E-post"
+  },
+  "errors": {
+    "invalidTime": "Ogiltigt tidsformat",
+    "networkError": "Ett nätverksfel uppstod",
+    "tryAgain": "Vänligen försök igen"
+  },
+  "common": {
+    "loading": "Laddar...",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "confirm": "Bekräfta",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "close": "Stäng",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nej"
+  }
+}

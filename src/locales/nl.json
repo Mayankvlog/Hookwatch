@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professionele Stopwatch",
+    "description": "Precisie-timing voor atleten, professionals en iedereen daartussen"
+  },
+  "stopwatch": {
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Reset",
+    "lap": "Ronde",
+    "clear": "Wissen",
+    "time": "Tijd",
+    "laps": "Rondes",
+    "noLaps": "Geen rondes vastgelegd",
+    "lapTime": "Rondetijd",
+    "totalTime": "Totale Tijd"
+  },
+  "countdown": {
+    "hours": "Uren",
+    "minutes": "Minuten", 
+    "seconds": "Seconden",
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Reset",
+    "timeUp": "Tijd Voorbij!",
+    "setTime": "Stel afteltijd in"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "language": "Taal",
+    "theme": "Thema",
+    "sound": "Geluid",
+    "notifications": "Notificaties",
+    "darkMode": "Donkere Modus",
+    "lightMode": "Lichte Modus",
+    "autoMode": "Automatische Modus"
+  },
+  "navigation": {
+    "stopwatch": "Stopwatch",
+    "countdown": "Aftellen",
+    "settings": "Instellingen",
+    "about": "Over"
+  },
+  "about": {
+    "title": "Over HookWatch",
+    "version": "Versie",
+    "description": "HookWatch is een stopwatch- en timer-applicatie van professioneel niveau, ontworpen voor precieze timing.",
+    "features": "Kenmerken",
+    "featureList": [
+      "Precisie-timing op millisecondeniveau",
+      "Rondetijdregistratie",
+      "Aftel-timer",
+      "Meerdere thema's",
+      "Internationale taalondersteuning",
+      "Exportfunctionaliteit"
+    ],
+    "contact": "Contact",
+    "website": "Website",
+    "email": "E-mail"
+  },
+  "errors": {
+    "invalidTime": "Ongeldig tijdformaat",
+    "networkError": "Er is een netwerkfout opgetreden",
+    "tryAgain": "Probeer het opnieuw"
+  },
+  "common": {
+    "loading": "Laden...",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "close": "Sluiten",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nee"
+  }
+}

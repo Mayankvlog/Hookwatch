@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Kronometro Profesionala",
+    "description": "Neurri zehatzak kirolari, profesional eta guztientzat"
+  },
+  "stopwatch": {
+    "start": "Hasi",
+    "stop": "Gelditu",
+    "reset": "Berrezarri",
+    "lap": "Bira",
+    "clear": "Garbitu",
+    "time": "Denbora",
+    "laps": "Birak",
+    "noLaps": "Ez dago bira grabaturik",
+    "lapTime": "Bira Denbora",
+    "totalTime": "Denbora Guztira"
+  },
+  "countdown": {
+    "hours": "Orduak",
+    "minutes": "Minutuak", 
+    "seconds": "Segundoak",
+    "start": "Hasi",
+    "stop": "Gelditu",
+    "reset": "Berrezarri",
+    "timeUp": "Denbora bukatu da!",
+    "setTime": "Ezarri atzerantzko zenbaketa denbora"
+  },
+  "settings": {
+    "title": "Ezarpenak",
+    "language": "Hizkuntza",
+    "theme": "Gaia",
+    "sound": "Soinua",
+    "notifications": "Jakinarazpenak",
+    "darkMode": "Modu Iluna",
+    "lightMode": "Modu Argia",
+    "autoMode": "Modu Automatikoa"
+  },
+  "navigation": {
+    "stopwatch": "Kronometro",
+    "countdown": "Atzerantzko Zenbaketa",
+    "settings": "Ezarpenak",
+    "about": "Honi buruz"
+  },
+  "about": {
+    "title": "HookWatch Honi buruz",
+    "version": "Bertsioa",
+    "description": "HookWatch kronometro eta kronografo profesional mailako aplikazio bat da, denbora zehatz neurtzeko diseinatua.",
+    "features": "Ezaugarriak",
+    "featureList": [
+      "Milisegundo zehaztasuneko neurketa",
+      "Bira denboraren grabaketa",
+      "Atzerantzko zenbaketa kronografoa",
+      "Gai anitz",
+      "Nazioarteko hizkuntza laguntza",
+      "Esportazio funtzionalitatea"
+    ],
+    "contact": "Kontaktua",
+    "website": "Webgunea",
+    "email": "Emaila"
+  },
+  "errors": {
+    "invalidTime": "Denbora formatu baliogabea",
+    "networkError": "Sare errorea gertatu da",
+    "tryAgain": "Mesedez, saiatu berriro"
+  },
+  "common": {
+    "loading": "Kargatzen...",
+    "save": "Gorde",
+    "cancel": "Utzi",
+    "confirm": "Berretsi",
+    "delete": "Ezabatu",
+    "edit": "Editatu",
+    "close": "Itxi",
+    "ok": "OK",
+    "yes": "Bai",
+    "no": "Ez"
+  }
+}

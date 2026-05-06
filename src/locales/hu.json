@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professzionális Stopper",
+    "description": "Pontos időmérés sportolóknak, professzionálisoknak és mindenki között"
+  },
+  "stopwatch": {
+    "start": "Indítás",
+    "stop": "Megállítás",
+    "reset": "Visszaállítás",
+    "lap": "Kör",
+    "clear": "Törlés",
+    "time": "Idő",
+    "laps": "Körök",
+    "noLaps": "Nincsenek rögzített körök",
+    "lapTime": "Kör Idő",
+    "totalTime": "Teljes Idő"
+  },
+  "countdown": {
+    "hours": "Óra",
+    "minutes": "Perc", 
+    "seconds": "Másodperc",
+    "start": "Indítás",
+    "stop": "Megállítás",
+    "reset": "Visszaállítás",
+    "timeUp": "Lejárt az idő!",
+    "setTime": "Visszaszámlálási idő beállítása"
+  },
+  "settings": {
+    "title": "Beállítások",
+    "language": "Nyelv",
+    "theme": "Téma",
+    "sound": "Hang",
+    "notifications": "Értesítések",
+    "darkMode": "Sötét Mód",
+    "lightMode": "Világos Mód",
+    "autoMode": "Automatikus Mód"
+  },
+  "navigation": {
+    "stopwatch": "Stopper",
+    "countdown": "Visszaszámlálás",
+    "settings": "Beállítások",
+    "about": "Névjegy"
+  },
+  "about": {
+    "title": "Névjegy - HookWatch",
+    "version": "Verzió",
+    "description": "A HookWatch egy professzionális szintű stopper és időzítő alkalmazás, amely pontos időmérésre lett tervezve.",
+    "features": "Funkciók",
+    "featureList": [
+      "Milliszekundum pontosságú időmérés",
+      "Kör idő rögzítése",
+      "Visszaszámláló időzítő",
+      "Több téma",
+      "Nemzetközi nyelvi támogatás",
+      "Export funkció"
+    ],
+    "contact": "Kapcsolat",
+    "website": "Weboldal",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Érvénytelen időformátum",
+    "networkError": "Hálózati hiba történt",
+    "tryAgain": "Kérjük, próbálja újra"
+  },
+  "common": {
+    "loading": "Betöltés...",
+    "save": "Mentés",
+    "cancel": "Mégse",
+    "confirm": "Megerősítés",
+    "delete": "Törlés",
+    "edit": "Szerkesztés",
+    "close": "Bezárás",
+    "ok": "OK",
+    "yes": "Igen",
+    "no": "Nem"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesionálny Stopky",
+    "description": "Presné meranie času pre športovcov, profesionálov a všetkých medzi nimi"
+  },
+  "stopwatch": {
+    "start": "Štart",
+    "stop": "Stop",
+    "reset": "Resetovať",
+    "lap": "Kolo",
+    "clear": "Vymazať",
+    "time": "Čas",
+    "laps": "Kolá",
+    "noLaps": "Nie sú zaznamenané žiadne kolá",
+    "lapTime": "Čas Kola",
+    "totalTime": "Celkový Čas"
+  },
+  "countdown": {
+    "hours": "Hodiny",
+    "minutes": "Minúty", 
+    "seconds": "Sekundy",
+    "start": "Štart",
+    "stop": "Stop",
+    "reset": "Resetovať",
+    "timeUp": "Čas vypršal!",
+    "setTime": "Nastaviť čas odpočítavania"
+  },
+  "settings": {
+    "title": "Nastavenia",
+    "language": "Jazyk",
+    "theme": "Téma",
+    "sound": "Zvuk",
+    "notifications": "Oznámenia",
+    "darkMode": "Tmavý Režim",
+    "lightMode": "Svetlý Režim",
+    "autoMode": "Automatický Režim"
+  },
+  "navigation": {
+    "stopwatch": "Stopky",
+    "countdown": "Odpočítavanie",
+    "settings": "Nastavenia",
+    "about": "O"
+  },
+  "about": {
+    "title": "O HookWatch",
+    "version": "Verzia",
+    "description": "HookWatch je aplikácia profesionálnych stopek a časovačov navrhnutá pre presné meranie času.",
+    "features": "Funkcie",
+    "featureList": [
+      "Presné meranie času na milisekundy",
+      "Záznam času kola",
+      "Časovač odpočítavania",
+      "Viacero tém",
+      "Medzinárodná podpora jazykov",
+      "Funkcia exportu"
+    ],
+    "contact": "Kontakt",
+    "website": "Webová stránka",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Neplatný formát času",
+    "networkError": "Vyskytla sa sieťová chyba",
+    "tryAgain": "Prosím skúste znova"
+  },
+  "common": {
+    "loading": "Načítavanie...",
+    "save": "Uložiť",
+    "cancel": "Zrušiť",
+    "confirm": "Potvrdiť",
+    "delete": "Vymazať",
+    "edit": "Upraviť",
+    "close": "Zatvoriť",
+    "ok": "OK",
+    "yes": "Áno",
+    "no": "Nie"
+  }
+}

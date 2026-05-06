@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Profesyonel Kronometre",
+    "description": "Sporcular, profesyoneller ve aradaki herkes için hassas zamanlama"
+  },
+  "stopwatch": {
+    "start": "Başlat",
+    "stop": "Durdur",
+    "reset": "Sıfırla",
+    "lap": "Tur",
+    "clear": "Temizle",
+    "time": "Zaman",
+    "laps": "Turlar",
+    "noLaps": "Tur kaydedilmedi",
+    "lapTime": "Tur Süresi",
+    "totalTime": "Toplam Süre"
+  },
+  "countdown": {
+    "hours": "Saat",
+    "minutes": "Dakika", 
+    "seconds": "Saniye",
+    "start": "Başlat",
+    "stop": "Durdur",
+    "reset": "Sıfırla",
+    "timeUp": "Süre Doldu!",
+    "setTime": "Geri sayım süresini ayarla"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "theme": "Tema",
+    "sound": "Ses",
+    "notifications": "Bildirimler",
+    "darkMode": "Karanlık Mod",
+    "lightMode": "Açık Mod",
+    "autoMode": "Otomatik Mod"
+  },
+  "navigation": {
+    "stopwatch": "Kronometre",
+    "countdown": "Geri Sayım",
+    "settings": "Ayarlar",
+    "about": "Hakkında"
+  },
+  "about": {
+    "title": "HookWatch Hakkında",
+    "version": "Sürüm",
+    "description": "HookWatch, hassas zamanlama için tasarlanmış profesyonel düzeyde bir kronometre ve zamanlayıcı uygulamasıdır.",
+    "features": "Özellikler",
+    "featureList": [
+      "Milisaniye hassasiyetinde zamanlama",
+      "Tur süresi kaydı",
+      "Geri sayım zamanlayıcısı",
+      "Çoklu temalar",
+      "Uluslararası dil desteği",
+      "Dışa aktarma işlevselliği"
+    ],
+    "contact": "İletişim",
+    "website": "Web Sitesi",
+    "email": "E-posta"
+  },
+  "errors": {
+    "invalidTime": "Geçersiz zaman formatı",
+    "networkError": "Ağ hatası oluştu",
+    "tryAgain": "Lütfen tekrar deneyin"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "confirm": "Onayla",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "close": "Kapat",
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır"
+  }
+}

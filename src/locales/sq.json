@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Kronometër Profesional",
+    "description": "Masa e saktë për sportistët, profesionistët dhe të gjithë ndërmjet tyre"
+  },
+  "stopwatch": {
+    "start": "Fillo",
+    "stop": "Ndal",
+    "reset": "Rivendos",
+    "lap": "Rreth",
+    "clear": "Pastro",
+    "time": "Kohë",
+    "laps": "Rrethe",
+    "noLaps": "Nuk ka rrethe të regjistruara",
+    "lapTime": "Koha e Rrethit",
+    "totalTime": "Koha Totale"
+  },
+  "countdown": {
+    "hours": "Orë",
+    "minutes": "Minuta", 
+    "seconds": "Sekonda",
+    "start": "Fillo",
+    "stop": "Ndal",
+    "reset": "Rivendos",
+    "timeUp": "Koha mbaroi!",
+    "setTime": "Vendos kohën e numërimit prapa"
+  },
+  "settings": {
+    "title": "Cilësimet",
+    "language": "Gjuha",
+    "theme": "Temë",
+    "sound": "Zë",
+    "notifications": "Njoftimet",
+    "darkMode": "Modaliteti i Errët",
+    "lightMode": "Modaliteti i Ndritshëm",
+    "autoMode": "Modaliteti Automatik"
+  },
+  "navigation": {
+    "stopwatch": "Kronometër",
+    "countdown": "Numërim Prapa",
+    "settings": "Cilësimet",
+    "about": "Rreth"
+  },
+  "about": {
+    "title": "Rreth HookWatch",
+    "version": "Versioni",
+    "description": "HookWatch është një aplikacion i nivelit profesional për kronometër dhe timer, i dizajnuar për masë të saktë kohore.",
+    "features": "Veçoritë",
+    "featureList": [
+      "Masë e saktë kohore në milisekonda",
+      "Regjistrimi i kohës së rrethit",
+      "Timer numërimi prapa",
+      "Shumë tema",
+      "Suport ndërkombëtar i gjuhëve",
+      "Funksionalitet i eksportit"
+    ],
+    "contact": "Kontakt",
+    "website": "Faqja Web",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Format i pavlefshëm i kohës",
+    "networkError": "Ndodhi një gabim rrjeti",
+    "tryAgain": "Ju lutemi provoni përsëri"
+  },
+  "common": {
+    "loading": "Ngarkim...",
+    "save": "Ruaj",
+    "cancel": "Anulo",
+    "confirm": "Konfirmo",
+    "delete": "Fshi",
+    "edit": "Redakto",
+    "close": "Mbyll",
+    "ok": "OK",
+    "yes": "Po",
+    "no": "Jo"
+  }
+}

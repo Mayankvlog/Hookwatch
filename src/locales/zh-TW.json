@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - 專業碼表",
+    "description": "為運動員、專業人士和所有人提供的精確計時"
+  },
+  "stopwatch": {
+    "start": "開始",
+    "stop": "停止",
+    "reset": "重置",
+    "lap": "計次",
+    "clear": "清除",
+    "time": "時間",
+    "laps": "計次",
+    "noLaps": "未記錄計次",
+    "lapTime": "計次時間",
+    "totalTime": "總時間"
+  },
+  "countdown": {
+    "hours": "小時",
+    "minutes": "分鐘", 
+    "seconds": "秒",
+    "start": "開始",
+    "stop": "停止",
+    "reset": "重置",
+    "timeUp": "時間到！",
+    "setTime": "設置倒計時時間"
+  },
+  "settings": {
+    "title": "設置",
+    "language": "語言",
+    "theme": "主題",
+    "sound": "聲音",
+    "notifications": "通知",
+    "darkMode": "深色模式",
+    "lightMode": "淺色模式",
+    "autoMode": "自動模式"
+  },
+  "navigation": {
+    "stopwatch": "碼表",
+    "countdown": "倒計時",
+    "settings": "設置",
+    "about": "關於"
+  },
+  "about": {
+    "title": "關於 HookWatch",
+    "version": "版本",
+    "description": "HookWatch 是一款專業級的碼表和計時器應用程序，專為精確計時而設計。",
+    "features": "功能",
+    "featureList": [
+      "毫秒級精確計時",
+      "計次時間記錄",
+      "倒計時器",
+      "多種主題",
+      "國際語言支持",
+      "導出功能"
+    ],
+    "contact": "聯繫",
+    "website": "網站",
+    "email": "電子郵件"
+  },
+  "errors": {
+    "invalidTime": "無效的時間格式",
+    "networkError": "發生網絡錯誤",
+    "tryAgain": "請重試"
+  },
+  "common": {
+    "loading": "加載中...",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "delete": "刪除",
+    "edit": "編輯",
+    "close": "關閉",
+    "ok": "確定",
+    "yes": "是",
+    "no": "否"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - 전문 스톱워치",
+    "description": "운동선수, 전문가 및 모든 사람을 위한 정밀 타이밍"
+  },
+  "stopwatch": {
+    "start": "시작",
+    "stop": "중지",
+    "reset": "재설정",
+    "lap": "랩",
+    "clear": "지우기",
+    "time": "시간",
+    "laps": "랩",
+    "noLaps": "랩이 기록되지 않았습니다",
+    "lapTime": "랩 시간",
+    "totalTime": "총 시간"
+  },
+  "countdown": {
+    "hours": "시간",
+    "minutes": "분", 
+    "seconds": "초",
+    "start": "시작",
+    "stop": "중지",
+    "reset": "재설정",
+    "timeUp": "시간 종료!",
+    "setTime": "카운트다운 시간 설정"
+  },
+  "settings": {
+    "title": "설정",
+    "language": "언어",
+    "theme": "테마",
+    "sound": "소리",
+    "notifications": "알림",
+    "darkMode": "다크 모드",
+    "lightMode": "라이트 모드",
+    "autoMode": "자동 모드"
+  },
+  "navigation": {
+    "stopwatch": "스톱워치",
+    "countdown": "카운트다운",
+    "settings": "설정",
+    "about": "정보"
+  },
+  "about": {
+    "title": "HookWatch 정보",
+    "version": "버전",
+    "description": "HookWatch는 정밀 타이밍을 위해 설계된 전문 수준의 스톱워치 및 타이머 애플리케이션입니다.",
+    "features": "기능",
+    "featureList": [
+      "밀리초 정밀도 타이밍",
+      "랩 시간 기록",
+      "카운트다운 타이머",
+      "다중 테마",
+      "국제 언어 지원",
+      "내보내기 기능"
+    ],
+    "contact": "연락처",
+    "website": "웹사이트",
+    "email": "이메일"
+  },
+  "errors": {
+    "invalidTime": "잘못된 시간 형식",
+    "networkError": "네트워크 오류가 발생했습니다",
+    "tryAgain": "다시 시도해 주세요"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "save": "저장",
+    "cancel": "취소",
+    "confirm": "확인",
+    "delete": "삭제",
+    "edit": "편집",
+    "close": "닫기",
+    "ok": "확인",
+    "yes": "예",
+    "no": "아니오"
+  }
+}
