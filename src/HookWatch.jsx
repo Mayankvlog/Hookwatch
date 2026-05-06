@@ -246,8 +246,11 @@ const HookWatch = () => {
     let shareUrl = '';
     
     switch(platform) {
-      case 'facebook':
+      case 'meta':
         shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}&quote=${encodedText}`;
+        break;
+      case 'x':
+        shareUrl = `https://x.com/intent/tweet?text=${encodedText}&url=${encodedUrl}&hashtags=${encodeURIComponent(content.hashtags.replace('#', ''))}`;
         break;
       case 'twitter':
         shareUrl = `https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}&hashtags=${encodeURIComponent(content.hashtags.replace('#', ''))}`;
@@ -591,11 +594,11 @@ const HookWatch = () => {
             </div>
           </div>
           <div className="sharing-buttons">
-            <button className="share-btn-facebook" onClick={() => shareToSocial('facebook')}>
-              📘 Share on Facebook
+            <button className="share-btn-facebook" onClick={() => shareToSocial('meta')}>
+              📘 Share on Meta
             </button>
-            <button className="share-btn-twitter" onClick={() => shareToSocial('twitter')}>
-              🐦 Share on Twitter
+            <button className="share-btn-x" onClick={() => shareToSocial('x')}>
+              𝕏 Share on X
             </button>
             <button className="share-btn-linkedin" onClick={() => shareToSocial('linkedin')}>
               💼 Share on LinkedIn
