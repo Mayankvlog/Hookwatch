@@ -475,43 +475,6 @@ const HookWatch = () => {
           </button>
         </div>
       </div>
-    )}
-    
-    <div className="hookwatch-header">
-      <h1>{t('app.title')}</h1>
-      <p>{isCountdownMode ? t('navigation.countdown') : t('navigation.stopwatch')}</p>
-      <div className="theme-controls">
-        <LanguageSwitcher />
-        <button 
-            className="theme-btn" 
-            onClick={() => setIsDarkTheme(!isDarkTheme)}
-            title="Toggle Theme (T)"
-          >
-            {isDarkTheme ? '🌞' : '🌙'}
-          </button>
-          <button 
-            className="mode-btn" 
-            onClick={() => setIsCountdownMode(!isCountdownMode)}
-            title="Toggle Mode (M)"
-          >
-            {isCountdownMode ? '⏱️' : '⏰'}
-          </button>
-          <button 
-            className="sound-btn" 
-            onClick={() => setSoundEnabled(!soundEnabled)}
-            title="Toggle Sound (S)"
-          >
-            {soundEnabled ? '🔊' : '🔇'}
-          </button>
-          <button 
-            className="share-btn" 
-            onClick={() => setShowShareDialog(true)}
-            title="Share Results"
-          >
-            📤
-          </button>
-        </div>
-      </div>
 
       {isCountdownMode && !isRunning && (
         <div className="countdown-input-section">
