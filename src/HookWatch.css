@@ -50,11 +50,12 @@
 .logo-text {
   font-size: 1.8rem;
   font-weight: 700;
-  background: linear-gradient(45deg, #4ade80, #22c55e);
+  background: linear-gradient(45deg, #00d4ff, #0099ff, #0066ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: -0.5px;
 }
 
 .theme-controls {

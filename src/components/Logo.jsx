@@ -4,53 +4,56 @@ const Logo = () => {
   return (
     <div className="logo-container">
       <svg 
-        width="40" 
-        height="40" 
-        viewBox="0 0 40 40" 
+        width="32" 
+        height="32" 
+        viewBox="0 0 32 32" 
         className="logo-svg"
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
           <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#4ade80" />
-            <stop offset="100%" stopColor="#22c55e" />
+            <stop offset="0%" stopColor="#00d4ff" />
+            <stop offset="50%" stopColor="#0099ff" />
+            <stop offset="100%" stopColor="#0066ff" />
           </linearGradient>
         </defs>
-        {/* Clock face */}
-        <circle 
-          cx="20" 
-          cy="20" 
-          r="18" 
-          fill="none" 
-          stroke="url(#logoGradient)" 
-          strokeWidth="2"
-        />
-        {/* Hour markers */}
-        <line x1="20" y1="4" x2="20" y2="8" stroke="url(#logoGradient)" strokeWidth="2" />
-        <line x1="36" y1="20" x2="32" y2="20" stroke="url(#logoGradient)" strokeWidth="2" />
-        <line x1="20" y1="36" x2="20" y2="32" stroke="url(#logoGradient)" strokeWidth="2" />
-        <line x1="4" y1="20" x2="8" y2="20" stroke="url(#logoGradient)" strokeWidth="2" />
-        {/* Clock hands */}
-        <line 
-          x1="20" 
-          y1="20" 
-          x2="20" 
-          y2="14" 
-          stroke="url(#logoGradient)" 
-          strokeWidth="3"
-          strokeLinecap="round"
-        />
-        <line 
-          x1="20" 
-          y1="20" 
-          x2="26" 
-          y2="20" 
-          stroke="url(#logoGradient)" 
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-        {/* Center dot */}
-        <circle cx="20" cy="20" r="2" fill="url(#logoGradient)" />
+        
+        {/* Modern abstract H shape - like GitHub's octocat style */}
+        <g transform="translate(6, 4)">
+          {/* Left vertical bar */}
+          <rect 
+            x="0" 
+            y="0" 
+            width="6" 
+            height="24" 
+            rx="3" 
+            fill="url(#logoGradient)"
+          />
+          
+          {/* Right vertical bar */}
+          <rect 
+            x="14" 
+            y="0" 
+            width="6" 
+            height="24" 
+            rx="3" 
+            fill="url(#logoGradient)"
+          />
+          
+          {/* Middle horizontal bar */}
+          <rect 
+            x="0" 
+            y="9" 
+            width="20" 
+            height="6" 
+            rx="3" 
+            fill="url(#logoGradient)"
+          />
+          
+          {/* Small accent dots for modern look */}
+          <circle cx="10" cy="4" r="1.5" fill="#ffffff" opacity="0.8" />
+          <circle cx="10" cy="20" r="1.5" fill="#ffffff" opacity="0.8" />
+        </g>
       </svg>
       <span className="logo-text">HookWatch</span>
     </div>
