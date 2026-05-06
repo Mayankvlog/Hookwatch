@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Kronometru Professjonali",
+    "title": "ZentroTime - Kronometru Professjonali",
     "description": "Ħin preċiż għall-atleti, professjonisti u kull bejniet"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Dwar"
   },
   "about": {
-    "title": "Dwar HookWatch",
+    "title": "Dwar ZentroTime",
     "version": "Verżjoni",
-    "description": "HookWatch hija applikazzjoni ta' kronometru u timer ta' livell professjonali ddisinjata għall-ħin preċiż.",
+    "description": "ZentroTime hija applikazzjoni ta' kronometru u timer ta' livell professjonali ddisinjata għall-ħin preċiż.",
     "features": "Karatteristiċi",
     "featureList": [
       "Ħin preċiż ta' milisekondi",

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Đồng hồ Bấm giờ Chuyên nghiệp",
+    "title": "ZentroTime - Đồng hồ Bấm giờ Chuyên nghiệp",
     "description": "Đo thời gian chính xác cho vận động viên, chuyên gia và mọi người"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Về"
   },
   "about": {
-    "title": "Về HookWatch",
+    "title": "Về ZentroTime",
     "version": "Phiên bản",
-    "description": "HookWatch là ứng dụng đồng hồ bấm giờ và hẹn giờ cấp chuyên nghiệp được thiết kế để đo thời gian chính xác.",
+    "description": "ZentroTime là ứng dụng đồng hồ bấm giờ và hẹn giờ cấp chuyên nghiệp được thiết kế để đo thời gian chính xác.",
     "features": "Tính năng",
     "featureList": [
       "Đo thời gian chính xác mili giây",

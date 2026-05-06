@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Profesionální Stopky",
+    "title": "ZentroTime - Profesionální Stopky",
     "description": "Přesné časování pro sportovce, profesionály a všechny mezi"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "O"
   },
   "about": {
-    "title": "O HookWatch",
+    "title": "O ZentroTime",
     "version": "Verze",
-    "description": "HookWatch je aplikace profesionálních stopek a časovačů navržená pro přesné časování.",
+    "description": "ZentroTime je aplikace profesionálních stopek a časovačů navržená pro přesné časování.",
     "features": "Funkce",
     "featureList": [
       "Přesné časování na milisekundy",

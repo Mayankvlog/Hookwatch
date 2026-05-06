@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Kronometro Profesionala",
+    "title": "ZentroTime - Kronometro Profesionala",
     "description": "Neurri zehatzak kirolari, profesional eta guztientzat"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Honi buruz"
   },
   "about": {
-    "title": "HookWatch Honi buruz",
+    "title": "ZentroTime Honi buruz",
     "version": "Bertsioa",
-    "description": "HookWatch kronometro eta kronografo profesional mailako aplikazio bat da, denbora zehatz neurtzeko diseinatua.",
+    "description": "ZentroTime kronometro eta kronografo profesional mailako aplikazio bat da, denbora zehatz neurtzeko diseinatua.",
     "features": "Ezaugarriak",
     "featureList": [
       "Milisegundo zehaztasuneko neurketa",

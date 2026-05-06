@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - 전문 스톱워치",
+    "title": "ZentroTime - 전문 스톱워치",
     "description": "운동선수, 전문가 및 모든 사람을 위한 정밀 타이밍"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "정보"
   },
   "about": {
-    "title": "HookWatch 정보",
+    "title": "ZentroTime 정보",
     "version": "버전",
-    "description": "HookWatch는 정밀 타이밍을 위해 설계된 전문 수준의 스톱워치 및 타이머 애플리케이션입니다.",
+    "description": "ZentroTime는 정밀 타이밍을 위해 설계된 전문 수준의 스톱워치 및 타이머 애플리케이션입니다.",
     "features": "기능",
     "featureList": [
       "밀리초 정밀도 타이밍",

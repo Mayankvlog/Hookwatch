@@ -55,7 +55,7 @@ const Logo = () => {
           <circle cx="10" cy="20" r="1.5" fill="#ffffff" opacity="0.8" />
         </g>
       </svg>
-      <span className="logo-text">HookWatch</span>
+      <span className="logo-text">ZentroTime</span>
     </div>
   );
 };

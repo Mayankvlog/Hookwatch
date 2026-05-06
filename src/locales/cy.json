@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Stopwyr Proffesiynol",
+    "title": "ZentroTime - Stopwyr Proffesiynol",
     "description": "Amser cywir i athletwyr, proffesiynolion a pawb rhyngddynt"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Amdanom"
   },
   "about": {
-    "title": "Amdanom HookWatch",
+    "title": "Amdanom ZentroTime",
     "version": "Fersiwn",
-    "description": "Mae HookWatch yn ap stopwyr a thamradd lefel proffesiynol wedi'i gynllunio ar gyfer amser cywir.",
+    "description": "Mae ZentroTime yn ap stopwyr a thamradd lefel proffesiynol wedi'i gynllunio ar gyfer amser cywir.",
     "features": "Nodweddion",
     "featureList": [
       "Amser cywir millieili",

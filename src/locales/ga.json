@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Stopadair Gairmiúil",
+    "title": "ZentroTime - Stopadair Gairmiúil",
     "description": "Am cruinn do lúthchleasaithe, gairmithe agus gach duine eatarthu"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Faoi"
   },
   "about": {
-    "title": "Faoi HookWatch",
+    "title": "Faoi ZentroTime",
     "version": "Leagan",
-    "description": "Is feidhmchlár stopadair agus caitheamh aimsire leibhéal gairmiúil é HookWatch, deartha le haghaidh am cruinn.",
+    "description": "Is feidhmchlár stopadair agus caitheamh aimsire leibhéal gairmiúil é ZentroTime, deartha le haghaidh am cruinn.",
     "features": "Gnéithe",
     "featureList": [
       "Am cruinn míleasoicind",

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Profesjonalny Stoper",
+    "title": "ZentroTime - Profesjonalny Stoper",
     "description": "Precyzyjny pomiar czasu dla sportowców, profesjonalistów i wszystkich innych"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "O Aplikacji"
   },
   "about": {
-    "title": "O HookWatch",
+    "title": "O ZentroTime",
     "version": "Wersja",
-    "description": "HookWatch to profesjonalna aplikacja stopera i timera zaprojektowana do precyzyjnego pomiaru czasu.",
+    "description": "ZentroTime to profesjonalna aplikacja stopera i timera zaprojektowana do precyzyjnego pomiaru czasu.",
     "features": "Funkcje",
     "featureList": [
       "Precyzyjny pomiar czasu z dokładnością do milisekund",

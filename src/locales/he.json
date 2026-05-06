@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - שעון עצר מקצועי",
+    "title": "ZentroTime - שעון עצר מקצועי",
     "description": "תזמון מדויק לספורטאים, אנשי מקצוע וכולם ביניהם"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "אודות"
   },
   "about": {
-    "title": "אודות HookWatch",
+    "title": "אודות ZentroTime",
     "version": "גרסה",
-    "description": "HookWatch הוא יישום שעון עצר וטיימר ברמה מקצועית המיועד לתזמון מדויק.",
+    "description": "ZentroTime הוא יישום שעון עצר וטיימר ברמה מקצועית המיועד לתזמון מדויק.",
     "features": "תכונות",
     "featureList": [
       "תזמון מדויק של מילישניות",

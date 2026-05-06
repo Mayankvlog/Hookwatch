@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Ammattimainen Sekuntikello",
+    "title": "ZentroTime - Ammattimainen Sekuntikello",
     "description": "Tarkka ajoitus urheilijoille, ammattilaisille ja kaikille välillä"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Tietoja"
   },
   "about": {
-    "title": "Tietoja HookWatchista",
+    "title": "Tietoja ZentroTimeista",
     "version": "Versio",
-    "description": "HookWatch on ammattitason sekuntikello- ja ajastinsovellus, joka on suunniteltu tarkkaan ajotukseen.",
+    "description": "ZentroTime on ammattitason sekuntikello- ja ajastinsovellus, joka on suunniteltu tarkkaan ajotukseen.",
     "features": "Ominaisuudet",
     "featureList": [
       "Millisekunnin tarkka ajoitus",

@@ -1,5 +1,5 @@
 {
-  "name": "hookwatch-stopwatch",
+  "name": "zentrotime-stopwatch",
   "version": "1.0.0",
   "description": "A full-featured online stopwatch built with React hooks",
   "type": "module",
@@ -15,7 +15,7 @@
     "hooks",
     "javascript"
   ],
-  "author": "HookWatch Team",
+  "author": "ZentroTime Team",
   "license": "MIT",
   "dependencies": {
     "i18next": "^26.0.8",

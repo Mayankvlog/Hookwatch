@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Saa ya Kazi ya Uchambuzi",
+    "title": "ZentroTime - Saa ya Kazi ya Uchambuzi",
     "description": "Ukadiraji wa usahihi kwa wanariadha, wataalam na kila mtu kati yao"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Kuhusu"
   },
   "about": {
-    "title": "Kuhusu HookWatch",
+    "title": "Kuhusu ZentroTime",
     "version": "Toleo",
-    "description": "HookWatch ni programu ya saa ya uchambuzi na kipima muda ya kiwango cha kitaalamu iliyoundwa kwa ukadiraji wa usahihi.",
+    "description": "ZentroTime ni programu ya saa ya uchambuzi na kipima muda ya kiwango cha kitaalamu iliyoundwa kwa ukadiraji wa usahihi.",
     "features": "Vipengele",
     "featureList": [
       "Ukadiraji wa usahihi wa millisecond",

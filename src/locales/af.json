@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professionele Stopwag",
+    "title": "ZentroTime - Professionele Stopwag",
     "description": "Presiese tydsmeting vir atlete, professionele en almal daartussen"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Oor"
   },
   "about": {
-    "title": "Oor HookWatch",
+    "title": "Oor ZentroTime",
     "version": "Weergawe",
-    "description": "HookWatch is 'n professionele stopwag- en tydhouer-toepassing wat ontwerp is vir presiese tydsmeting.",
+    "description": "ZentroTime is 'n professionele stopwag- en tydhouer-toepassing wat ontwerp is vir presiese tydsmeting.",
     "features": "Kenmerke",
     "featureList": [
       "Presiese tydsmeting op millisekonde",

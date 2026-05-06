@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professzionális Stopper",
+    "title": "ZentroTime - Professzionális Stopper",
     "description": "Pontos időmérés sportolóknak, professzionálisoknak és mindenki között"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Névjegy"
   },
   "about": {
-    "title": "Névjegy - HookWatch",
+    "title": "Névjegy - ZentroTime",
     "version": "Verzió",
-    "description": "A HookWatch egy professzionális szintű stopper és időzítő alkalmazás, amely pontos időmérésre lett tervezve.",
+    "description": "A ZentroTime egy professzionális szintű stopper és időzítő alkalmazás, amely pontos időmérésre lett tervezve.",
     "features": "Funkciók",
     "featureList": [
       "Milliszekundum pontosságú időmérés",

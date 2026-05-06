@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Cronòmetre Professional",
+    "title": "ZentroTime - Cronòmetre Professional",
     "description": "Temps de precisió per a esportistes, professionals i tots els que hi ha entre"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Sobre"
   },
   "about": {
-    "title": "Sobre HookWatch",
+    "title": "Sobre ZentroTime",
     "version": "Versió",
-    "description": "HookWatch és una aplicació de cronòmetre i temporitzador de nivell professional dissenyada per a temps de precisió.",
+    "description": "ZentroTime és una aplicació de cronòmetre i temporitzador de nivell professional dissenyada per a temps de precisió.",
     "features": "Característiques",
     "featureList": [
       "Temps de precisió de mil·lisegons",

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Cronometro Professionale",
+    "title": "ZentroTime - Cronometro Professionale",
     "description": "Temporizzazione di precisione per atleti, professionisti e tutti gli altri"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Informazioni"
   },
   "about": {
-    "title": "Informazioni su HookWatch",
+    "title": "Informazioni su ZentroTime",
     "version": "Versione",
-    "description": "HookWatch è un'applicazione di cronometro e timer di livello professionale progettata per la temporizzazione di precisione.",
+    "description": "ZentroTime è un'applicazione di cronometro e timer di livello professionale progettata per la temporizzazione di precisione.",
     "features": "Caratteristiche",
     "featureList": [
       "Temporizzazione di precisione di millisecondi",

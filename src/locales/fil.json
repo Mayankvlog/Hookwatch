@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Propesyonal na Stopwatch",
+    "title": "ZentroTime - Propesyonal na Stopwatch",
     "description": "Presisong pagtatataya para sa mga atleta, propesyonal, at lahat ng tao"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Tungkol"
   },
   "about": {
-    "title": "Tungkol sa HookWatch",
+    "title": "Tungkol sa ZentroTime",
     "version": "Bersyon",
-    "description": "Ang HookWatch ay isang propesyonal na stopwatch at timer application na idinisenyo para sa presisong pagtatataya.",
+    "description": "Ang ZentroTime ay isang propesyonal na stopwatch at timer application na idinisenyo para sa presisong pagtatataya.",
     "features": "Mga Tampok",
     "featureList": [
       "Presisong pagtatataya ng milisegundo",

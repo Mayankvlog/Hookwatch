@@ -1,4 +1,4 @@
-# HookWatch - Professional Stopwatch & Timer
+# ZentroTime - Professional Stopwatch & Timer
 
 A feature-rich online stopwatch and countdown timer built with React hooks. Perfect for athletes, students, professionals, and anyone who needs precise time tracking.
 

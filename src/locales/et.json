@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professionaalne Stoppwatch",
+    "title": "ZentroTime - Professionaalne Stoppwatch",
     "description": "Precise ajamise sportlastele, professionaalidele ja kõikidele vahel"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Info"
   },
   "about": {
-    "title": "HookWatch Info",
+    "title": "ZentroTime Info",
     "version": "Versioon",
-    "description": "HookWatch on professionaalne tase stoppwatch ja timer rakendus, mis on disainitud preciiseks ajamiseks.",
+    "description": "ZentroTime on professionaalne tase stoppwatch ja timer rakendus, mis on disainitud preciiseks ajamiseks.",
     "features": "Omadused",
     "featureList": [
       "Millisekundi täpsusega ajamine",

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Istophuvi Esiprofeshinala",
+    "title": "ZentroTime - Istophuvi Esiprofeshinala",
     "description": "Ukuhlola ngokunembile kubadlali, abaphrofeshinala nabakho bonke phakathi kwabo"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Mayelana"
   },
   "about": {
-    "title": "Mayelana ne-HookWatch",
+    "title": "Mayelana ne-ZentroTime",
     "version": "Inguqulo",
-    "description": "I-HookWatch iyuhlelo lwe-stophuvi netimer lelivela eliprrofeshinali olakhiwe ukuhlola ngokunembile.",
+    "description": "I-ZentroTime iyuhlelo lwe-stophuvi netimer lelivela eliprrofeshinali olakhiwe ukuhlola ngokunembile.",
     "features": "Izici",
     "featureList": [
       "Ukuhlola kwamasekhondi anembile",

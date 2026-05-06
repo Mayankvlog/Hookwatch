@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professionele Stopwatch",
+    "title": "ZentroTime - Professionele Stopwatch",
     "description": "Precisie-timing voor atleten, professionals en iedereen daartussen"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Over"
   },
   "about": {
-    "title": "Over HookWatch",
+    "title": "Over ZentroTime",
     "version": "Versie",
-    "description": "HookWatch is een stopwatch- en timer-applicatie van professioneel niveau, ontworpen voor precieze timing.",
+    "description": "ZentroTime is een stopwatch- en timer-applicatie van professioneel niveau, ontworpen voor precieze timing.",
     "features": "Kenmerken",
     "featureList": [
       "Precisie-timing op millisecondeniveau",

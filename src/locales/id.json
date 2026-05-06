@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Stopwatch Profesional",
+    "title": "ZentroTime - Stopwatch Profesional",
     "description": "Pengukuran waktu yang presisi untuk atlet, profesional, dan semua orang"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Tentang"
   },
   "about": {
-    "title": "Tentang HookWatch",
+    "title": "Tentang ZentroTime",
     "version": "Versi",
-    "description": "HookWatch adalah aplikasi stopwatch dan timer tingkat profesional yang dirancang untuk pengukuran waktu yang presisi.",
+    "description": "ZentroTime adalah aplikasi stopwatch dan timer tingkat profesional yang dirancang untuk pengukuran waktu yang presisi.",
     "features": "Fitur",
     "featureList": [
       "Pengukuran waktu presisi milidetik",

@@ -1,6 +1,6 @@
 {
-  "name": "HookWatch - Precision Online Stopwatch",
-  "short_name": "HookWatch",
+  "name": "ZentroTime - Precision Online Stopwatch",
+  "short_name": "ZentroTime",
   "description": "Free online stopwatch with lap times, countdown timer, precision timing, and modern UI. Perfect for sports, cooking, productivity and more.",
   "start_url": "/",
   "display": "standalone",
@@ -56,14 +56,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "HookWatch main interface with stopwatch running"
+      "label": "ZentroTime main interface with stopwatch running"
     },
     {
       "src": "https://hookwatch.example.com/screenshot2.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "HookWatch countdown timer mode with progress ring"
+      "label": "ZentroTime countdown timer mode with progress ring"
     }
   ],
   "related_applications": [],

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Atvinnastoppklukka",
+    "title": "ZentroTime - Atvinnastoppklukka",
     "description": "Nákvæm tímamæl fyrir íþróttamenn, atvinnufólk og alla á milli"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Um"
   },
   "about": {
-    "title": "Um HookWatch",
+    "title": "Um ZentroTime",
     "version": "Útgáfa",
-    "description": "HookWatch er atvinnuklasa stoppklukka og tímatæki sem hannað er fyrir nákvæma tímamælingu.",
+    "description": "ZentroTime er atvinnuklasa stoppklukka og tímatæki sem hannað er fyrir nákvæma tímamælingu.",
     "features": "Eiginleikar",
     "featureList": [
       "Nákvæm tímamæl í millisekúndum",

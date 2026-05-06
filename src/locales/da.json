@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professionel Stopur",
+    "title": "ZentroTime - Professionel Stopur",
     "description": "Præcis tidtagning for atleter, professionelle og alle imellem"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Om"
   },
   "about": {
-    "title": "Om HookWatch",
+    "title": "Om ZentroTime",
     "version": "Version",
-    "description": "HookWatch er en professionel stopur- og timerapplikation designet til præcis tidtagning.",
+    "description": "ZentroTime er en professionel stopur- og timerapplikation designet til præcis tidtagning.",
     "features": "Funktioner",
     "featureList": [
       "Millisekund præcisionstidtagning",

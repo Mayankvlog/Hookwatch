@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - 专业秒表",
+    "title": "ZentroTime - 专业秒表",
     "description": "为运动员、专业人士和所有人提供的精密计时"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "关于"
   },
   "about": {
-    "title": "关于 HookWatch",
+    "title": "关于 ZentroTime",
     "version": "版本",
-    "description": "HookWatch 是一款专业级的秒表和计时器应用程序，专为精密计时而设计。",
+    "description": "ZentroTime 是一款专业级的秒表和计时器应用程序，专为精密计时而设计。",
     "features": "功能",
     "featureList": [
       "毫秒级精密计时",

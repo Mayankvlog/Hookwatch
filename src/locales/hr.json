@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Profesionalna Štoperica",
+    "title": "ZentroTime - Profesionalna Štoperica",
     "description": "Precizno mjerenje vremena za sportaše, profesionalce i sve između"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "O"
   },
   "about": {
-    "title": "O HookWatch",
+    "title": "O ZentroTime",
     "version": "Verzija",
-    "description": "HookWatch je aplikacija štoperice i tajmera profesionalne razine dizajnirana za precizno mjerenje vremena.",
+    "description": "ZentroTime je aplikacija štoperice i tajmera profesionalne razine dizajnirana za precizno mjerenje vremena.",
     "features": "Značajke",
     "featureList": [
       "Precizno mjerenje vremena na milisekunde",

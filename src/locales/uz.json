@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professional Sekundomer",
+    "title": "ZentroTime - Professional Sekundomer",
     "description": "Sportchilar, professionallar va ular orasidagi barcha uchun aniq vaqt o'lchash"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Haqida"
   },
   "about": {
-    "title": "HookWatch Haqida",
+    "title": "ZentroTime Haqida",
     "version": "Versiya",
-    "description": "HookWatch - bu aniq vaqt o'lchash uchun ishlab chiqilgan professional darajadagi sekundomer va taymer ilovasi.",
+    "description": "ZentroTime - bu aniq vaqt o'lchash uchun ishlab chiqilgan professional darajadagi sekundomer va taymer ilovasi.",
     "features": "Xususiyatlar",
     "featureList": [
       "Millisekund aniqdagi vaqt o'lchash",

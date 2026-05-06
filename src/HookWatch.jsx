@@ -5,7 +5,7 @@ import './HookWatch.css';
 import LanguageSwitcher from './LanguageSwitcher';
 import Logo from './components/Logo';
 
-const HookWatch = () => {
+const ZentroTime = () => {
   const { t } = useTranslation();
   const [time, setTime] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
@@ -217,10 +217,10 @@ const HookWatch = () => {
     if (time > 3600000) achievements.push('Endurance Expert');
     
     return {
-      title: `HookWatch ${isCountdownMode ? 'Countdown' : 'Stopwatch'} Results`,
-      description: `Just completed a ${currentTime} session with ${laps.length} laps! ${achievements.length > 0 ? 'Achievements: ' + achievements.join(', ') : ''} Join 10M+ users timing with HookWatch!`,
+      title: `ZentroTime ${isCountdownMode ? 'Countdown' : 'Stopwatch'} Results`,
+      description: `Just completed a ${currentTime} session with ${laps.length} laps! ${achievements.length > 0 ? 'Achievements: ' + achievements.join(', ') : ''} Join 10M+ users timing with ZentroTime!`,
       url: window.location.href,
-      hashtags: '#HookWatch #Timer #Stopwatch #Productivity #FreeTimer',
+      hashtags: '#ZentroTime #Timer #Stopwatch #Productivity #FreeTimer',
       achievements: achievements
     };
   };
@@ -228,8 +228,8 @@ const HookWatch = () => {
   const updateDynamicSEO = () => {
     const currentTime = formatTime(isCountdownMode ? countdownTime : time);
     const newTitle = isRunning 
-      ? `Live Timer: ${currentTime} | Free Online Stopwatch | HookWatch`
-      : `Free Online Stopwatch Timer | Precision Time Tracker | HookWatch`;
+      ? `Live Timer: ${currentTime} | Free Online Stopwatch | ZentroTime`
+      : `Free Online Stopwatch Timer | Precision Time Tracker | ZentroTime`;
     
     if (document.title !== newTitle) {
       document.title = newTitle;
@@ -334,7 +334,7 @@ const HookWatch = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'hookwatch-laps.txt';
+    a.download = 'zentrotime-laps.txt';
     a.click();
   };
 
@@ -344,12 +344,12 @@ const HookWatch = () => {
         {/* Dynamic SEO Meta Tags Based on User Activity */}
         <title>
           {isRunning 
-            ? `Live Timer: ${formatTime(isCountdownMode ? countdownTime : time)} | Free Online Stopwatch | HookWatch`
-            : `Free Online Stopwatch Timer | Precision Time Tracker | HookWatch`}
+            ? `Live Timer: ${formatTime(isCountdownMode ? countdownTime : time)} | Free Online Stopwatch | ZentroTime`
+            : `Free Online Stopwatch Timer | Precision Time Tracker | ZentroTime`}
         </title>
         <meta name="description" content={
           isRunning 
-            ? `Currently timing: ${formatTime(isCountdownMode ? countdownTime : time)} with ${laps.length} laps. Join 10M+ users using HookWatch free online stopwatch. Perfect for sports, study, work, cooking!`
+            ? `Currently timing: ${formatTime(isCountdownMode ? countdownTime : time)} with ${laps.length} laps. Join 10M+ users using ZentroTime free online stopwatch. Perfect for sports, study, work, cooking!`
             : `World's most popular free online stopwatch timer. Track time with millisecond precision. Used by 10M+ athletes, students, professionals. No download required. Start timing instantly!`
         } />
         <meta name="keywords" content={
@@ -361,31 +361,31 @@ const HookWatch = () => {
         {/* Dynamic Open Graph Tags */}
         <meta property="og:title" content={
           isRunning 
-            ? `Live Timer: ${formatTime(isCountdownMode ? countdownTime : time)} | HookWatch`
-            : `Free Online Stopwatch Timer | Track Time Instantly | HookWatch`
+            ? `Live Timer: ${formatTime(isCountdownMode ? countdownTime : time)} | ZentroTime`
+            : `Free Online Stopwatch Timer | Track Time Instantly | ZentroTime`
         } />
         <meta property="og:description" content={
           isRunning 
-            ? `I'm currently timing: ${formatTime(isCountdownMode ? countdownTime : time)} with ${laps.length} laps! Join me on HookWatch - the world's most popular free timer!`
+            ? `I'm currently timing: ${formatTime(isCountdownMode ? countdownTime : time)} with ${laps.length} laps! Join me on ZentroTime - the world's most popular free timer!`
             : `World's most popular free stopwatch timer. Used by 10M+ people worldwide. Perfect for sports, study, work, cooking. Start timing in 1 second!`
         } />
         
         {/* Dynamic Twitter Card */}
         <meta name="twitter:title" content={
           isRunning 
-            ? `Live Timer: ${formatTime(isCountdownMode ? countdownTime : time)} | HookWatch`
-            : `Free Online Stopwatch Timer | Start Timing in 1 Second | HookWatch`
+            ? `Live Timer: ${formatTime(isCountdownMode ? countdownTime : time)} | ZentroTime`
+            : `Free Online Stopwatch Timer | Start Timing in 1 Second | ZentroTime`
         } />
         <meta name="twitter:description" content={
           isRunning 
-            ? `Currently timing: ${formatTime(isCountdownMode ? countdownTime : time)} with ${laps.length} laps! Try HookWatch free timer! #LiveTimer #Stopwatch`
+            ? `Currently timing: ${formatTime(isCountdownMode ? countdownTime : time)} with ${laps.length} laps! Try ZentroTime free timer! #LiveTimer #Stopwatch`
             : `World's most popular free stopwatch timer. Used by 10M+ people. Perfect for sports, study, work, cooking. Start instantly! #FreeTimer #Stopwatch`
         } />
         
         {/* Viral Achievement Meta Tags */}
         {viralScore > 1000 && <meta name="achievement" content="Timer Master" />}
         {viralScore > 5000 && <meta name="achievement" content="Time Champion" />}
-        {viralScore > 10000 && <meta name="achievement" content="HookWatch Legend" />}
+        {viralScore > 10000 && <meta name="achievement" content="ZentroTime Legend" />}
         
         {/* Real-time Analytics Tags */}
         <meta name="timer-status" content={isRunning ? "active" : "stopped"} />
@@ -400,7 +400,7 @@ const HookWatch = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebApplication",
-            "name": "HookWatch - Live Timer Session",
+            "name": "ZentroTime - Live Timer Session",
             "description": isRunning 
               ? `Active timing session: ${formatTime(isCountdownMode ? countdownTime : time)} with ${laps.length} laps recorded`
               : "Ready to start timing with world's most popular free stopwatch",
@@ -419,14 +419,14 @@ const HookWatch = () => {
             },
             "author": {
               "@type": "Organization",
-              "name": "HookWatch Technologies Inc."
+              "name": "ZentroTime Technologies Inc."
             }
           })}
         </script>
       </Helmet>
       
       <div 
-        className={`hookwatch-container ${isDarkTheme ? 'dark-theme' : 'light-theme'} ${isRunning ? 'running' : ''}`}
+        className={`zentrotime-container ${isDarkTheme ? 'dark-theme' : 'light-theme'} ${isRunning ? 'running' : ''}`}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
       >
@@ -442,7 +442,7 @@ const HookWatch = () => {
         </div>
       )}
       
-      <div className="hookwatch-header">
+      <div className="zentrotime-header">
         <Logo />
         <p>{isCountdownMode ? t('navigation.countdown') : t('navigation.stopwatch')}</p>
         <div className="theme-controls">
@@ -610,4 +610,4 @@ const HookWatch = () => {
   );
 };
 
-export default HookWatch;
+export default ZentroTime;

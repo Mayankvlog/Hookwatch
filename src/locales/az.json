@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professional Xronometr",
+    "title": "ZentroTime - Professional Xronometr",
     "description": "İdmançılar, peşəkarlar və onların arasında olan hər kəs üçün dəqiq vaxt ölçmə"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Haqqında"
   },
   "about": {
-    "title": "HookWatch Haqqında",
+    "title": "ZentroTime Haqqında",
     "version": "Versiya",
-    "description": "HookWatch dəqiq vaxt ölçmə üçün hazırlanmış professional səviyyəli xronometr və taymer tətbiqidir.",
+    "description": "ZentroTime dəqiq vaxt ölçmə üçün hazırlanmış professional səviyyəli xronometr və taymer tətbiqidir.",
     "features": "Xüsusiyyətlər",
     "featureList": [
       "Millisaniyə dəqiqliyi ilə vaxt ölçmə",

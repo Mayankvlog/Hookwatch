@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professionelle Stoppuhr",
+    "title": "ZentroTime - Professionelle Stoppuhr",
     "description": "Präzisionstiming für Athleten, Profis und alle dazwischen"
   },
   "stopwatch": {
@@ -43,9 +43,9 @@
     "about": "Über"
   },
   "about": {
-    "title": "Über HookWatch",
+    "title": "Über ZentroTime",
     "version": "Version",
-    "description": "HookWatch ist eine professionelle Stoppuhr- und Timer-Anwendung, die für präzises Timing entwickelt wurde.",
+    "description": "ZentroTime ist eine professionelle Stoppuhr- und Timer-Anwendung, die für präzises Timing entwickelt wurde.",
     "features": "Funktionen",
     "featureList": [
       "Millisekunden-Präzisionstiming",

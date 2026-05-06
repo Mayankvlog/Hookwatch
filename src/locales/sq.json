@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Kronometër Profesional",
+    "title": "ZentroTime - Kronometër Profesional",
     "description": "Masa e saktë për sportistët, profesionistët dhe të gjithë ndërmjet tyre"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Rreth"
   },
   "about": {
-    "title": "Rreth HookWatch",
+    "title": "Rreth ZentroTime",
     "version": "Versioni",
-    "description": "HookWatch është një aplikacion i nivelit profesional për kronometër dhe timer, i dizajnuar për masë të saktë kohore.",
+    "description": "ZentroTime është një aplikacion i nivelit profesional për kronometër dhe timer, i dizajnuar për masë të saktë kohore.",
     "features": "Veçoritë",
     "featureList": [
       "Masë e saktë kohore në milisekonda",

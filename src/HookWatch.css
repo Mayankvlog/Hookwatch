@@ -1,16 +1,16 @@
 /* Light Theme (Default) */
-.hookwatch-container.light-theme {
+.zentrotime-container.light-theme {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
 }
 
 /* Dark Theme */
-.hookwatch-container.dark-theme {
+.zentrotime-container.dark-theme {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: #e0e0e0;
 }
 
-.hookwatch-container {
+.zentrotime-container {
   max-width: 500px;
   margin: 0 auto;
   padding: 2rem;
@@ -24,7 +24,7 @@
   transition: all 0.3s ease;
 }
 
-.hookwatch-header {
+.zentrotime-header {
   text-align: center;
   margin-bottom: 2rem;
   position: relative;
@@ -126,7 +126,7 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
-.hookwatch-header h1 {
+.zentrotime-header h1 {
   font-size: 3rem;
   font-weight: 700;
   margin: 0;
@@ -137,7 +137,7 @@
   background-clip: text;
 }
 
-.hookwatch-header p {
+.zentrotime-header p {
   font-size: 1.1rem;
   margin: 0.5rem 0 0 0;
   opacity: 0.9;
@@ -216,7 +216,7 @@
   transition: stroke-dashoffset 0.1s linear;
 }
 
-.hookwatch-container.running .time-display {
+.zentrotime-container.running .time-display {
   animation: containerPulse 2s ease-in-out infinite;
 }
 
@@ -236,7 +236,7 @@
   z-index: 1;
 }
 
-.hookwatch-container.running .time-value {
+.zentrotime-container.running .time-value {
   animation: pulse 1s ease-in-out infinite;
 }
 
@@ -601,12 +601,12 @@
 
 /* Responsive design */
 @media (max-width: 600px) {
-  .hookwatch-container {
+  .zentrotime-container {
     margin: 1rem;
     padding: 1.5rem;
   }
   
-  .hookwatch-header h1 {
+  .zentrotime-header h1 {
     font-size: 2.5rem;
   }
   

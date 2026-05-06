@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Profesyonel Kronometre",
+    "title": "ZentroTime - Profesyonel Kronometre",
     "description": "Sporcular, profesyoneller ve aradaki herkes için hassas zamanlama"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Hakkında"
   },
   "about": {
-    "title": "HookWatch Hakkında",
+    "title": "ZentroTime Hakkında",
     "version": "Sürüm",
-    "description": "HookWatch, hassas zamanlama için tasarlanmış profesyonel düzeyde bir kronometre ve zamanlayıcı uygulamasıdır.",
+    "description": "ZentroTime, hassas zamanlama için tasarlanmış profesyonel düzeyde bir kronometre ve zamanlayıcı uygulamasıdır.",
     "features": "Özellikler",
     "featureList": [
       "Milisaniye hassasiyetinde zamanlama",

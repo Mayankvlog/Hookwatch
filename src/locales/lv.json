@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Profesionāla Hronometrs",
+    "title": "ZentroTime - Profesionāla Hronometrs",
     "description": "Precīzs laika mērīšana sportistiem, profesionāļiem un visiem starp tiem"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Par"
   },
   "about": {
-    "title": "Par HookWatch",
+    "title": "Par ZentroTime",
     "version": "Versija",
-    "description": "HookWatch ir profesionāla līmeņa hronometra un taimera lietotne, kas izstrādāta precīzai laika mērīšanai.",
+    "description": "ZentroTime ir profesionāla līmeņa hronometra un taimera lietotne, kas izstrādāta precīzai laika mērīšanai.",
     "features": "Funkcijas",
     "featureList": [
       "Precīza laika mērīšana milisekunžu precizitātē",

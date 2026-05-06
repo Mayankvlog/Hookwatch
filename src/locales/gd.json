@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Stòp-adhair Gairmeil",
+    "title": "ZentroTime - Stòp-adhair Gairmeil",
     "description": "Tìmachadh mionaideach airson luchd-spòrs, gairmealan agus a h-uile duine eadarra"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Mu dheidhinn"
   },
   "about": {
-    "title": "Mu dheidhinn HookWatch",
+    "title": "Mu dheidhinn ZentroTime",
     "version": "Tionndadh",
-    "description": "Tha HookWatch na aplacaid stòp-adhair agus àm-uidhe air ìre gairmeil, air a dealbhadh airson tìmeachadh mionaideach.",
+    "description": "Tha ZentroTime na aplacaid stòp-adhair agus àm-uidhe air ìre gairmeil, air a dealbhadh airson tìmeachadh mionaideach.",
     "features": "Gleusan",
     "featureList": [
       "Tìmeachadh mionaideach milisecond",

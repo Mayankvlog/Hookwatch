@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Professionell Stoppur",
+    "title": "ZentroTime - Professionell Stoppur",
     "description": "Nøktíðar mæling fyri ítróttafólk, professionell og allir ímillum"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Um"
   },
   "about": {
-    "title": "Um HookWatch",
+    "title": "Um ZentroTime",
     "version": "Útgáva",
-    "description": "HookWatch er ein professionell stoppur- og tímarar-applikasjon sum er gjørd til nøktíðar mæling.",
+    "description": "ZentroTime er ein professionell stoppur- og tímarar-applikasjon sum er gjørd til nøktíðar mæling.",
     "features": "Eginleikar",
     "featureList": [
       "Nøktíðar mæling í millisekundum",

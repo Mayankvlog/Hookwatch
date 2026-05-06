@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "HookWatch - Profesionalus Chronometras",
+    "title": "ZentroTime - Profesionalus Chronometras",
     "description": "Tikslus laiko matavimas sportininkams, profesionalams ir visiems tarp jų"
   },
   "stopwatch": {
@@ -42,9 +42,9 @@
     "about": "Apie"
   },
   "about": {
-    "title": "Apie HookWatch",
+    "title": "Apie ZentroTime",
     "version": "Versija",
-    "description": "HookWatch yra profesionalaus lygio chronometro ir laikmačio programa, sukurta tiksliam laiko matavimui.",
+    "description": "ZentroTime yra profesionalaus lygio chronometro ir laikmačio programa, sukurta tiksliam laiko matavimui.",
     "features": "Funkcijos",
     "featureList": [
       "Tikslus laiko matavimas milisekundų tikslumu",
