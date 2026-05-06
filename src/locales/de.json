@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professionelle Stoppuhr",
+    "description": "Präzisionstiming für Athleten, Profis und alle dazwischen"
+  },
+  "stopwatch": {
+    "start": "Starten",
+    "stop": "Stopp",
+    "reset": "Zurücksetzen",
+    "lap": "Runde",
+    "clear": "Löschen",
+    "time": "Zeit",
+    "laps": "Runden",
+    "noLaps": "Keine Runden aufgezeichnet",
+    "lapTime": "Rundenzeit",
+    "totalTime": "Gesamtzeit"
+  },
+  "countdown": {
+    "hours": "Stunden",
+    "minutes": "Minuten", 
+    "seconds": "Sekunden",
+    "start": "Starten",
+    "stop": "Stopp",
+    "reset": "Zurücksetzen",
+    "timeUp": "Zeit Um!",
+    "setTime": "Countdown-Zeit einstellen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "theme": "Design",
+    "sound": "Ton",
+    "notifications": "Benachrichtigungen",
+    "darkMode": "Dunkler Modus",
+    "lightMode": "Heller Modus",
+    "autoMode": "Automatischer Modus"
+  },
+  "navigation": {
+    "stopwatch": "Stoppuhr",
+    "countdown": "Countdown",
+    "settings": "Einstellungen",
+    "about": "Über"
+  },
+  "about": {
+    "title": "Über HookWatch",
+    "version": "Version",
+    "description": "HookWatch ist eine professionelle Stoppuhr- und Timer-Anwendung, die für präzises Timing entwickelt wurde.",
+    "features": "Funktionen",
+    "featureList": [
+      "Millisekunden-Präzisionstiming",
+      "Rundenzeit-Aufzeichnung",
+      "Countdown-Timer",
+      "Mehrere Designs",
+      "Internationaler Sprachunterstützung",
+      "Export-Funktionalität"
+    ],
+    "contact": "Kontakt",
+    "website": "Website",
+    "email": "E-Mail"
+  },
+  "errors": {
+    "invalidTime": "Ungültiges Zeitformat",
+    "networkError": "Netzwerkfehler aufgetreten",
+    "tryAgain": "Bitte versuchen Sie es erneut"
+  },
+  "common": {
+    "loading": "Laden...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "ok": "OK",
+    "yes": "Ja",
+    "no": "Nein"
+  }
+}

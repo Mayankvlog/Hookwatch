@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - プロフェッショナルストップウォッチ",
+    "description": "アスリート、プロフェッショナル、そして全ての人々のための精密タイミング"
+  },
+  "stopwatch": {
+    "start": "開始",
+    "stop": "停止",
+    "reset": "リセット",
+    "lap": "ラップ",
+    "clear": "クリア",
+    "time": "時間",
+    "laps": "ラップ",
+    "noLaps": "ラップが記録されていません",
+    "lapTime": "ラップタイム",
+    "totalTime": "総時間"
+  },
+  "countdown": {
+    "hours": "時間",
+    "minutes": "分", 
+    "seconds": "秒",
+    "start": "開始",
+    "stop": "停止",
+    "reset": "リセット",
+    "timeUp": "時間です！",
+    "setTime": "カウントダウン時間を設定"
+  },
+  "settings": {
+    "title": "設定",
+    "language": "言語",
+    "theme": "テーマ",
+    "sound": "音",
+    "notifications": "通知",
+    "darkMode": "ダークモード",
+    "lightMode": "ライトモード",
+    "autoMode": "自動モード"
+  },
+  "navigation": {
+    "stopwatch": "ストップウォッチ",
+    "countdown": "カウントダウン",
+    "settings": "設定",
+    "about": "について"
+  },
+  "about": {
+    "title": "HookWatchについて",
+    "version": "バージョン",
+    "description": "HookWatchは精密タイミングのために設計されたプロフェッショナルグレードのストップウォッチおよびタイマーアプリケーションです。",
+    "features": "機能",
+    "featureList": [
+      "ミリ秒精度タイミング",
+      "ラップタイム記録",
+      "カウントダウンタイマー",
+      "複数のテーマ",
+      "国際言語サポート",
+      "エクスポート機能"
+    ],
+    "contact": "連絡先",
+    "website": "ウェブサイト",
+    "email": "メール"
+  },
+  "errors": {
+    "invalidTime": "無効な時間形式",
+    "networkError": "ネットワークエラーが発生しました",
+    "tryAgain": "もう一度お試しください"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "ok": "OK",
+    "yes": "はい",
+    "no": "いいえ"
+  }
+}

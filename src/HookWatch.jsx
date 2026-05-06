@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import './HookWatch.css';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const HookWatch = () => {
+  const { t } = useTranslation();
   const [time, setTime] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
   const [laps, setLaps] = useState([]);
@@ -350,7 +353,7 @@ const HookWatch = () => {
         <meta name="keywords" content={
           isRunning 
             ? `live stopwatch, active timer, current timing session, ${isCountdownMode ? 'countdown timer' : 'stopwatch timer'}, real-time tracking, online timer now, free active timer, live chronograph, current session timer`
-            : `free online stopwatch, online stopwatch timer, free timer, stopwatch online, timer online, time tracker, chronograph, lap timer, countdown timer, digital stopwatch, sports timer, workout timer, study timer, cooking timer, meeting timer, productivity timer, interval timer, gym timer, running timer, swimming timer, cycling timer, fitness timer, training timer, exercise timer, yoga timer, meditation timer, break timer, pomodoro timer, work timer, class timer, exam timer, race timer, competition timer, professional stopwatch, accurate stopwatch, precise timer, millisecond timer, high precision timer, olympic timer, coach timer, referee timer, teacher timer, student timer, office timer, kitchen timer, game timer, presentation timer, speech timer, debate timer, quiz timer, test timer, assignment timer, homework timer, project timer, deadline timer, challenge timer, goal timer, habit timer, routine timer, schedule timer, planning timer, organizing timer, time management timer, productivity tool, time tracking tool, performance timer, speed timer, pace timer, cadence timer, rhythm timer, beat timer, music timer, dance timer, rehearsal timer, practice timer, warmup timer, cooldown timer, stretching timer, rest timer, recovery timer, interval training timer, hiit timer, circuit timer, tabata timer, crossfit timer, weightlifting timer, cardio timer, strength training timer, endurance timer, stamina timer, speed timer, agility timer, reaction timer, reflex timer, coordination timer, balance timer, flexibility timer, mobility timer, stability timer, core timer, abs timer, legs timer, arms timer, chest timer, back timer, shoulders timer, glutes timer, calves timer, hamstrings timer, quads timer, biceps timer, triceps timer, forearms timer, grip timer, wrist timer, ankle timer, neck timer, spine timer, posture timer, breathing timer, relaxation timer, meditation timer, mindfulness timer, stress relief timer, anxiety timer, focus timer, concentration timer, attention timer, memory timer, learning timer, education timer, teaching timer, classroom timer, lecture timer, seminar timer, workshop timer, conference timer, meeting timer, presentation timer, speech timer, debate timer, discussion timer, brainstorming timer, creative timer, innovation timer, design timer, art timer, writing timer, reading timer, research timer`
+            : "stopwatch, timer, online stopwatch, free timer, chronograph, lap timer, countdown, sports timer, workout timer, study timer, productivity timer, time tracker, digital stopwatch, learning timer, education timer, teaching timer, classroom timer, lecture timer, seminar timer, workshop timer, conference timer, meeting timer, presentation timer, speech timer, debate timer, discussion timer, brainstorming timer, creative timer, innovation timer, design timer, art timer, writing timer, reading timer, research timer"
         } />
         
         {/* Dynamic Open Graph Tags */}
@@ -438,9 +441,10 @@ const HookWatch = () => {
       )}
       
       <div className="hookwatch-header">
-        <h1>HookWatch</h1>
-        <p>{isCountdownMode ? 'Countdown Timer' : 'Precision Stopwatch'}</p>
+        <h1>{t('app.title')}</h1>
+        <p>{isCountdownMode ? t('navigation.countdown') : t('navigation.stopwatch')}</p>
         <div className="theme-controls">
+          <LanguageSwitcher />
           <button 
             className="theme-btn" 
             onClick={() => setIsDarkTheme(!isDarkTheme)}
@@ -451,21 +455,58 @@ const HookWatch = () => {
           <button 
             className="mode-btn" 
             onClick={() => setIsCountdownMode(!isCountdownMode)}
-            title="Switch Mode (M)"
+            title="Toggle Mode (M)"
           >
             {isCountdownMode ? '⏱️' : '⏰'}
           </button>
           <button 
             className="sound-btn" 
             onClick={() => setSoundEnabled(!soundEnabled)}
-            title="Toggle Sound"
+            title="Toggle Sound (S)"
           >
             {soundEnabled ? '🔊' : '🔇'}
           </button>
           <button 
             className="share-btn" 
-            onClick={shareResults}
-            title="Share Results (S)"
+            onClick={() => setShowShareDialog(true)}
+            title="Share Results"
+          >
+            📤
+          </button>
+        </div>
+      </div>
+    )}
+    
+    <div className="hookwatch-header">
+      <h1>{t('app.title')}</h1>
+      <p>{isCountdownMode ? t('navigation.countdown') : t('navigation.stopwatch')}</p>
+      <div className="theme-controls">
+        <LanguageSwitcher />
+        <button 
+            className="theme-btn" 
+            onClick={() => setIsDarkTheme(!isDarkTheme)}
+            title="Toggle Theme (T)"
+          >
+            {isDarkTheme ? '🌞' : '🌙'}
+          </button>
+          <button 
+            className="mode-btn" 
+            onClick={() => setIsCountdownMode(!isCountdownMode)}
+            title="Toggle Mode (M)"
+          >
+            {isCountdownMode ? '⏱️' : '⏰'}
+          </button>
+          <button 
+            className="sound-btn" 
+            onClick={() => setSoundEnabled(!soundEnabled)}
+            title="Toggle Sound (S)"
+          >
+            {soundEnabled ? '🔊' : '🔇'}
+          </button>
+          <button 
+            className="share-btn" 
+            onClick={() => setShowShareDialog(true)}
+            title="Share Results"
           >
             📤
           </button>
@@ -476,80 +517,82 @@ const HookWatch = () => {
         <div className="countdown-input-section">
           <input
             type="number"
-            placeholder="Enter minutes"
+            placeholder={t('countdown.minutes')}
             value={countdownInput}
             onChange={(e) => setCountdownInput(e.target.value)}
+            min="0"
+            max="180"
             className="countdown-input"
-            min="1"
-            max="999"
           />
+          <button className="btn btn-set-countdown" onClick={() => {
+            const minutes = parseInt(countdownInput) || 0;
+            setCountdownTime(minutes * 60 * 1000);
+            playSound('click');
+          }}>
+            {t('countdown.setTime')}
+          </button>
         </div>
       )}
-
-      <div className="time-display">
-        {isCountdownMode && (
-          <div className="progress-ring">
-            <svg className="progress-svg" width="200" height="200">
-              <circle
-                className="progress-background"
-                cx="100"
-                cy="100"
-                r="90"
-                fill="none"
-                stroke="rgba(255,255,255,0.1)"
-                strokeWidth="8"
-              />
-              <circle
-                className="progress-bar"
-                cx="100"
-                cy="100"
-                r="90"
-                fill="none"
-                stroke="url(#gradient)"
-                strokeWidth="8"
-                strokeDasharray={`${2 * Math.PI * 90}`}
-                strokeDashoffset={`${2 * Math.PI * 90 * (1 - progress / 100)}`}
-                transform="rotate(-90 100 100)"
-              />
-              <defs>
-                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#4ade80" />
-                  <stop offset="100%" stopColor="#22c55e" />
-                </linearGradient>
-              </defs>
-            </svg>
+        <div className="time-display">
+          {isCountdownMode && isRunning && (
+            <div className="progress-ring">
+              <svg width="200" height="200">
+                <circle
+                  className="progress-background"
+                  cx="100"
+                  cy="100"
+                  r="90"
+                  fill="none"
+                  stroke="rgba(255,255,255,0.1)"
+                  strokeWidth="8"
+                />
+                <circle
+                  className="progress-bar"
+                  cx="100"
+                  cy="100"
+                  r="90"
+                  fill="none"
+                  stroke="url(#gradient)"
+                  strokeWidth="8"
+                  strokeDasharray={`${2 * Math.PI * 90}`}
+                  strokeDashoffset={`${2 * Math.PI * 90 * (1 - progress / 100)}`}
+                  transform="rotate(-90 100 100)"
+                />
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#4ade80" />
+                    <stop offset="100%" stopColor="#22c55e" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          )}
+          <div className="time-value">
+            {formatTime(isCountdownMode ? countdownTime : time)}
           </div>
-        )}
-        <div className="time-value">
-          {formatTime(isCountdownMode ? countdownTime : time)}
-        </div>
-        <div className="time-label">
-          {isRunning ? 'Running' : 'Stopped'}
+          <div className="time-label">
+            {isRunning ? 'Running' : 'Stopped'}
+          </div>
         </div>
       </div>
 
       <div className="controls">
         {!isRunning ? (
-          <button 
-            className="btn btn-start" 
-            onClick={handleStart}
-            disabled={!isCountdownMode && time > 0 && laps.length === 0}
-            title="Start/Resume (Space)"
-          >
-            {isCountdownMode ? 'Start' : (time === 0 ? 'Start' : 'Resume')}
+          <button className="btn btn-start" onClick={handleStart} title="Start (Space)">
+            {isCountdownMode ? t('countdown.start') : (time === 0 ? t('stopwatch.start') : 'Resume')}
           </button>
         ) : (
           <button className="btn btn-stop" onClick={handleStop} title="Stop (Space)">
-            Stop
+            {t('stopwatch.stop')}
           </button>
         )}
         
         <button className="btn btn-lap" onClick={handleLap} disabled={!isRunning} title="Lap (L) or Swipe Left">
-          Lap
+          {t('stopwatch.lap')}
         </button>
         
         <button className="btn btn-reset" onClick={handleReset} title="Reset (R) or Swipe Right">
-          Reset
+          {t('stopwatch.reset')}
         </button>
       </div>
 
@@ -617,13 +660,13 @@ const HookWatch = () => {
       {laps.length > 0 && (
         <div className="laps-section">
           <div className="laps-header">
-            <h3>Lap Times</h3>
+            <h3>{t('stopwatch.laps')}</h3>
             <div className="laps-actions">
               <button className="btn-export" onClick={exportLaps} title="Export Laps">
-                📥 Export
+                📥 {t('common.save')}
               </button>
               <button className="btn-clear-laps" onClick={handleClearLaps}>
-                Clear All
+                {t('stopwatch.clear')}
               </button>
             </div>
           </div>
@@ -633,7 +676,7 @@ const HookWatch = () => {
               const diff = isCountdownMode ? prevLap - lapTime : lapTime - prevLap;
               return (
                 <div key={index} className="lap-item">
-                  <span className="lap-number">Lap {index + 1}</span>
+                  <span className="lap-number">{t('stopwatch.lap')} {index + 1}</span>
                   <span className="lap-time">{formatTime(lapTime)}</span>
                   {index > 0 && (
                     <span className="lap-diff">+{formatTime(diff)}</span>
@@ -644,7 +687,6 @@ const HookWatch = () => {
           </div>
         </div>
       )}
-      </div>
     </>
   );
 };

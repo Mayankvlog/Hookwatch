@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Cronômetro Profissional",
+    "description": "Temporização de precisão para atletas, profissionais e todos os outros"
+  },
+  "stopwatch": {
+    "start": "Iniciar",
+    "stop": "Parar",
+    "reset": "Redefinir",
+    "lap": "Volta",
+    "clear": "Limpar",
+    "time": "Tempo",
+    "laps": "Voltas",
+    "noLaps": "Nenhuma volta registrada",
+    "lapTime": "Tempo da Volta",
+    "totalTime": "Tempo Total"
+  },
+  "countdown": {
+    "hours": "Horas",
+    "minutes": "Minutos", 
+    "seconds": "Segundos",
+    "start": "Iniciar",
+    "stop": "Parar",
+    "reset": "Redefinir",
+    "timeUp": "Tempo Esgotado!",
+    "setTime": "Definir tempo de contagem regressiva"
+  },
+  "settings": {
+    "title": "Configurações",
+    "language": "Idioma",
+    "theme": "Tema",
+    "sound": "Som",
+    "notifications": "Notificações",
+    "darkMode": "Modo Escuro",
+    "lightMode": "Modo Claro",
+    "autoMode": "Modo Automático"
+  },
+  "navigation": {
+    "stopwatch": "Cronômetro",
+    "countdown": "Contagem Regressiva",
+    "settings": "Configurações",
+    "about": "Sobre"
+  },
+  "about": {
+    "title": "Sobre HookWatch",
+    "version": "Versão",
+    "description": "HookWatch é um aplicativo de cronômetro e temporizador de nível profissional projetado para temporização de precisão.",
+    "features": "Recursos",
+    "featureList": [
+      "Temporização de precisão de milissegundos",
+      "Registro de tempo de volta",
+      "Temporizador de contagem regressiva",
+      "Múltiplos temas",
+      "Suporte de idioma internacional",
+      "Funcionalidade de exportação"
+    ],
+    "contact": "Contato",
+    "website": "Site",
+    "email": "E-mail"
+  },
+  "errors": {
+    "invalidTime": "Formato de tempo inválido",
+    "networkError": "Ocorreu um erro de rede",
+    "tryAgain": "Por favor tente novamente"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "close": "Fechar",
+    "ok": "OK",
+    "yes": "Sim",
+    "no": "Não"
+  }
+}

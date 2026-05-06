@@ -1,0 +1,78 @@
+{
+  "app": {
+    "title": "HookWatch - Professional Stopwatch",
+    "description": "Precision timing for athletes, professionals, and everyone in between"
+  },
+  "stopwatch": {
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Reset",
+    "lap": "Lap",
+    "clear": "Clear",
+    "time": "Time",
+    "laps": "Laps",
+    "noLaps": "No laps recorded",
+    "lapTime": "Lap Time",
+    "totalTime": "Total Time"
+  },
+  "countdown": {
+    "hours": "Hours",
+    "minutes": "Minutes", 
+    "seconds": "Seconds",
+    "start": "Start",
+    "stop": "Stop",
+    "reset": "Reset",
+    "timeUp": "Time's Up!",
+    "setTime": "Set countdown time"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "sound": "Sound",
+    "notifications": "Notifications",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "autoMode": "Auto Mode"
+  },
+  "navigation": {
+    "stopwatch": "Stopwatch",
+    "countdown": "Countdown",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "about": {
+    "title": "About HookWatch",
+    "version": "Version",
+    "description": "HookWatch is a professional-grade stopwatch and timer application designed for precision timing.",
+    "features": "Features",
+    "featureList": [
+      "Millisecond precision timing",
+      "Lap time recording",
+      "Countdown timer",
+      "Multiple themes",
+      "International language support",
+      "Export functionality"
+    ],
+    "contact": "Contact",
+    "website": "Website",
+    "email": "Email"
+  },
+  "errors": {
+    "invalidTime": "Invalid time format",
+    "networkError": "Network error occurred",
+    "tryAgain": "Please try again"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No"
+  }
+}
