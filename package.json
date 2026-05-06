@@ -2,12 +2,11 @@
   "name": "hookwatch-stopwatch",
   "version": "1.0.0",
   "description": "A full-featured online stopwatch built with React hooks",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "react",
@@ -18,10 +17,6 @@
   ],
   "author": "HookWatch Team",
   "license": "MIT",
-  "overrides": {
-    "es-abstract": "^1.22.3",
-    "typescript": "^4.9.5"
-  },
   "dependencies": {
     "i18next": "^26.0.8",
     "i18next-browser-languagedetector": "^8.2.1",
@@ -29,19 +24,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^2.0.4",
-    "react-i18next": "^17.0.6",
-    "react-scripts": "5.0.1"
+    "react-i18next": "^17.0.6"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.4.0"
   }
 }
