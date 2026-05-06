@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import './HookWatch.css';
 import LanguageSwitcher from './LanguageSwitcher';
+import Logo from './components/Logo';
 
 const HookWatch = () => {
   const { t } = useTranslation();
@@ -444,7 +445,7 @@ const HookWatch = () => {
       )}
       
       <div className="hookwatch-header">
-        <h1>{t('app.title')}</h1>
+        <Logo />
         <p>{isCountdownMode ? t('navigation.countdown') : t('navigation.stopwatch')}</p>
         <div className="theme-controls">
           <LanguageSwitcher />
