@@ -1,16 +1,43 @@
-# React + Vite
+# HookWatch - Professional Stopwatch & Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich online stopwatch and countdown timer built with React hooks. Perfect for athletes, students, professionals, and anyone who needs precise time tracking.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dual Mode**: Stopwatch and countdown timer functionality
+- **Precision Timing**: Millisecond accuracy with lap recording
+- **Multi-language Support**: 60+ languages with i18next
+- **Dark/Light Themes**: Toggle between themes instantly
+- **Keyboard Shortcuts**: Space (start/stop), R (reset), L (lap), T (theme), M (mode)
+- **Touch Gestures**: Swipe left for lap, swipe right for reset
+- **Sound Effects**: Audio feedback for actions
+- **Statistics Tracking**: Session count, total time, best lap
+- **Export Functionality**: Download lap data as text file
+- **Social Sharing**: Share results on major platforms
+- **Responsive Design**: Works perfectly on all devices
+- **Progress Visualization**: Circular progress for countdown mode
 
-## React Compiler
+## Quick Start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Open `http://localhost:5173` to start timing instantly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+
+Press Space to start/stop, L to record laps, R to reset. Switch between stopwatch and countdown modes using the M key or mode button. Customize your experience with theme switching and sound controls.
+
+## Built With
+
+- React 18 with hooks
+- Vite for fast development
+- i18next for internationalization
+- React Helmet for SEO optimization
+- CSS animations and transitions
+
+## License
+
+MIT License - Free for personal and commercial use.
