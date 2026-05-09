@@ -341,9 +341,6 @@ const ZentroTime = () => {
   return (
     <>
       <Helmet>
-        {/* Google Search Console Site Verification */}
-        <meta name="google-site-verification" content="google51c73a015472fade.html" />
-        
         {/* Dynamic SEO Meta Tags Based on User Activity */}
         <title>
           {isRunning 
