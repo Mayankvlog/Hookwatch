@@ -1,0 +1,157 @@
+.backlinks-container {
+  width: 100%;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.05) 100%);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.backlinks-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.backlinks-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.backlinks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.backlink-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-decoration: none;
+  color: #0066cc;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.backlink-item:hover {
+  background: #f0f7ff;
+  border-color: #0066cc;
+  box-shadow: 0 2px 8px rgba(0, 102, 204, 0.15);
+  transform: translateY(-2px);
+}
+
+.backlink-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.backlink-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9rem;
+}
+
+.backlinks-toggle {
+  display: block;
+  margin: 0 auto 1rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(74, 222, 128, 0.3);
+}
+
+.backlinks-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 222, 128, 0.4);
+}
+
+.backlinks-toggle:active {
+  transform: translateY(0);
+}
+
+.backlinks-count {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Dark theme support */
+@media (prefers-color-scheme: dark) {
+  .backlinks-container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.05) 100%);
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .backlinks-title {
+    color: #f0f0f0;
+  }
+
+  .backlink-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #64b5f6;
+  }
+
+  .backlink-item:hover {
+    background: rgba(64, 181, 246, 0.1);
+    border-color: #64b5f6;
+    box-shadow: 0 2px 8px rgba(100, 181, 246, 0.2);
+  }
+
+  .backlinks-count {
+    color: #999;
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .backlinks-container {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .backlinks-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .backlink-item {
+    padding: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .backlinks-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .backlinks-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+
+  .backlink-item {
+    padding: 0.625rem;
+    gap: 0.5rem;
+  }
+
+  .backlink-text {
+    font-size: 0.8rem;
+  }
+}

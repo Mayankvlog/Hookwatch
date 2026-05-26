@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import './HookWatch.css';
 import LanguageSwitcher from './LanguageSwitcher';
 import Logo from './components/Logo';
+import Backlinks from './components/Backlinks';
 
 const ZentroTime = () => {
   const { t } = useTranslation();
@@ -606,6 +607,8 @@ const ZentroTime = () => {
           </div>
         </div>
       )}
+      
+      <Backlinks />
     </>
   );
 };
